@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib\log4j-1.2.17.jar lib\junit-4.11.jar lib\mysql-connecto
+Main-Class: ua.amper.kharkov.sf.Main
+

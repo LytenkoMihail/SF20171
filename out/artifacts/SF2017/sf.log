@@ -1,0 +1,5 @@
+2017-08-07 12:29:13,547 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-07 12:29:13,548 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-07 12:29:13,632 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-07 12:29:23,136 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
+2017-08-07 12:29:23,145 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Stop :---------------------------
