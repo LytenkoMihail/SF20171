@@ -1,0 +1,5 @@
+2017-08-09 12:52:31,087 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-09 12:52:31,088 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-09 12:52:31,147 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-09 12:52:36,635 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
+2017-08-09 12:52:36,645 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
