@@ -27,14 +27,13 @@ public class LoadPropertyFromFile {
         Properties properties = new Properties();
         try {
             //обращаемся к файлу и получаем данные
+//            fileInputStream = new FileInputStream(getClass().getClassLoader().getResource(filePropetries).getPath());
+            fileInputStream = new FileInputStream(getClass().getClassLoader().getResource(filePropetries).getFile());
+            String s = getClass().getClassLoader().getResource(filePropetries).getFile();
 
-            fileInputStream = new FileInputStream(getClass().getClassLoader().getResource(filePropetries).getPath());
 //            fileInputStream = new FileInputStream(filePropetries);
-
             properties.load(fileInputStream);
-            String site = properties.getProperty("USER_NAME");
-            System.out.println(site);
-            System.out.println(new String(properties.getProperty("USER_NAME").getBytes("utf-8")));
+            System.out.println(s+"=========="+properties.getProperty("USER_NAME"));
         } catch (FileNotFoundException e) {
             System.out.println(LOGGER_ERROR_NOT_OPEN_FILE + ":" + filePropetries);
             e.printStackTrace();

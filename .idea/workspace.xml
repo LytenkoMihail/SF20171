@@ -7,16 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SF2017/SF2017.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SF2017/sf.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SF2017/sf_full.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SF2017/sf_orm.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sf.properties" afterPath="$PROJECT_DIR$/resources/sf.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sf.log" afterPath="$PROJECT_DIR$/sf.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sf_full.log" afterPath="$PROJECT_DIR$/sf_full.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,14 +64,14 @@
       <file leaf-file-name="SFConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="143" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="28" selection-end-column="143" />
+            <state relative-caret-position="408">
+              <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sf.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sf.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sf.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -87,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadPropertyFromFile.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoadPropertyFromFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="36" column="93" lean-forward="false" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
+            <state relative-caret-position="149">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="30" column="101" lean-forward="false" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
+              <caret line="30" column="113" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -128,6 +122,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -164,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindow.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java" />
         <option value="$PROJECT_DIR$/resources/sf.properties" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" />
       </list>
     </option>
   </component>
@@ -844,7 +841,7 @@
       <workItem from="1503049160051" duration="147000" />
       <workItem from="1503049654417" duration="52000" />
       <workItem from="1503049756247" duration="190000" />
-      <workItem from="1503056908957" duration="4517000" />
+      <workItem from="1503056908957" duration="6607000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1502272387819</created>
@@ -874,11 +871,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503057070944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Хранение настроек в property-файлах">
+      <created>1503061792546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503061792546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165100000" />
+    <option name="totallyTimeSpent" value="167190000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1209,36 +1213,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="101" lean-forward="false" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-412">
           <caret line="91" column="11" lean-forward="false" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="36" column="93" lean-forward="false" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="143" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="28" selection-end-column="143" />
           <folding />
         </state>
       </provider>
@@ -1248,6 +1226,32 @@
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="113" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
