@@ -90,6 +90,7 @@ public class GetUserPasswordWindow extends JDialog {
         passwordLabel = new JLabel(SFConstants.USER_PASSWORD);
 //        длина поля для ввода пароля количество знаков
         passwordField = new JPasswordField(20);
+        passwordField.setEchoChar('*');
         box2.add(passwordLabel);
         box2.add(Box.createHorizontalStrut(6));
         box2.add(passwordField);

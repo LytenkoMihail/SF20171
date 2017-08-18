@@ -3,6 +3,7 @@ package ua.amper.kharkov.sf;
 import org.apache.log4j.Logger;
 import ua.amper.kharkov.sf.dao.User;
 import ua.amper.kharkov.sf.gui.*;
+import ua.amper.kharkov.sf.util.LoadPropertyFromFile;
 import ua.amper.kharkov.sf.util.UtilScreen;
 
 import javax.swing.*;
@@ -22,9 +23,10 @@ public class Main {
 
     public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 
+
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
-
+        LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
         users.ensureCapacity(1_00);
         for (Integer i = 0; i < 1_00; i++) {
             users.add(new User(i, "Петя()" + i, Integer.toString(i)));

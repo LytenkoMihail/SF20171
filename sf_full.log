@@ -1,5 +1,5 @@
-2017-08-10 17:07:02,222 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-10 17:07:02,253 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-10 17:07:02,369 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-10 17:07:14,614 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
-2017-08-10 17:07:14,630 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-18 12:52:13,441 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-18 12:52:13,457 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-18 12:52:13,851 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-18 12:52:21,903 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
+2017-08-18 12:52:22,103 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
