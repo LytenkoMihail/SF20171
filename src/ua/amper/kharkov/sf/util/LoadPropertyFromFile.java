@@ -1,5 +1,6 @@
 package ua.amper.kharkov.sf.util;
 
+import javax.swing.*;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -26,9 +27,14 @@ public class LoadPropertyFromFile {
         Properties properties = new Properties();
         try {
             //обращаемся к файлу и получаем данные
-            fileInputStream = new FileInputStream(filePropetries);
-            properties.load(fileInputStream);
 
+            fileInputStream = new FileInputStream(getClass().getClassLoader().getResource(filePropetries).getPath());
+//            fileInputStream = new FileInputStream(filePropetries);
+
+            properties.load(fileInputStream);
+            String site = properties.getProperty("USER_NAME");
+            System.out.println(site);
+            System.out.println(new String(properties.getProperty("USER_NAME").getBytes("utf-8")));
         } catch (FileNotFoundException e) {
             System.out.println(LOGGER_ERROR_NOT_OPEN_FILE + ":" + filePropetries);
             e.printStackTrace();

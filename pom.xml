@@ -34,7 +34,11 @@
     <properties>
         <jdk.version>1.8</jdk.version>
     </properties>
-
+    <resources>
+        <resource>
+            <directory>src/resources</directory>
+        </resource>
+    </resources>
     <build>
         <plugins>
             <plugin>
