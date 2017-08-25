@@ -91,3 +91,16 @@
 2017-08-18 16:30:24,282 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Start:---------------------------
 2017-08-18 16:30:24,551 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
 2017-08-18 16:30:40,490 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-23 11:29:04,627 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-23 11:29:04,655 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-23 11:29:04,891 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-23 11:29:13,663 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-23 16:26:43,969 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-23 16:26:44,000 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-23 16:26:44,253 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-23 16:26:55,631 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
+2017-08-23 16:26:55,653 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-23 16:57:30,274 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-23 16:57:30,305 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-23 16:57:30,559 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-23 16:57:35,173 [INFO ][main            ][               kharkov.sf.Main] - ---------------------------Stop :---------------------------

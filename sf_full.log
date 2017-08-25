@@ -1,59 +1,13 @@
-2017-08-18 12:52:13,441 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 12:52:13,457 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 12:52:13,851 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 12:52:21,903 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
-2017-08-18 12:52:22,103 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 14:56:58,291 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 14:56:58,369 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 14:56:59,782 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 14:57:22,050 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:01:24,275 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:01:24,297 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:01:25,207 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:01:29,815 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:10:10,166 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:10:10,191 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:10:12,127 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:10:37,288 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:10:37,328 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:10:37,384 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
-2017-08-18 15:10:37,433 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:10:38,589 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:10:41,569 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:19:36,013 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:19:36,050 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:19:36,387 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:19:41,667 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:19:54,832 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:19:54,833 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:19:54,958 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:19:59,995 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:23:47,486 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:23:47,552 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:23:47,863 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:24:58,399 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
-2017-08-18 15:24:58,409 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:26:50,571 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:26:50,690 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:26:52,092 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:27:03,999 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 15:59:35,699 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 15:59:35,746 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 15:59:36,000 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 15:59:59,412 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 16:00:11,339 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 16:00:11,339 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 16:00:11,423 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 16:00:15,929 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 16:09:17,681 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 16:09:17,681 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 16:09:17,781 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 16:09:22,322 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 16:22:08,305 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 16:22:08,389 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 16:22:08,505 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 16:22:14,167 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
-2017-08-18 16:30:24,228 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-08-18 16:30:24,282 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
-2017-08-18 16:30:24,551 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
-2017-08-18 16:30:40,490 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-23 11:29:04,627 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-23 11:29:04,655 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-23 11:29:04,891 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-23 11:29:13,663 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-23 16:26:43,969 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-23 16:26:44,000 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-23 16:26:44,253 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-23 16:26:55,631 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - ---------------------------MainWindow---------------------------
+2017-08-23 16:26:55,653 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
+2017-08-23 16:57:30,274 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-08-23 16:57:30,305 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Start:---------------------------
+2017-08-23 16:57:30,559 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - ---------------------------GetUserPasswordWindowFrame---------------------------
+2017-08-23 16:57:35,173 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - ---------------------------Stop :---------------------------
