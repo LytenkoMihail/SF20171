@@ -26,7 +26,7 @@ public class Main {
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
-        LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
+
         users.ensureCapacity(1_00);
         for (Integer i = 0; i < 1_00; i++) {
             users.add(new User(i, "Петя()" + i, Integer.toString(i)));
@@ -41,7 +41,7 @@ public class Main {
         LOGGER.info(SFConstants.SF_VERSION);
         LOGGER.info(SFConstants.LOGGER_START);
         System.out.println(SFConstants.LOGGER_START);
-
+        LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
 
         OptionsWindow OWGetUserPasswordWindow = new OptionsWindow();
         OWGetUserPasswordWindow.setX(0);
@@ -50,12 +50,12 @@ public class Main {
         OWGetUserPasswordWindow.setHeight(0);
         OWGetUserPasswordWindow.setTitle(SFConstants.SF_VERSION);
         OWGetUserPasswordWindow.setFileImageIconName(SFConstants.SF_ICON_FILE);
-        GetUserPasswordWindow gupw = new GetUserPasswordWindow(OWGetUserPasswordWindow);
-        gupw.createDialog(users, authorizedUser);
-        gupw.showDialog();
+        GetUserPasswordWindow getUserPasswordWindow = new GetUserPasswordWindow(OWGetUserPasswordWindow);
+        getUserPasswordWindow.createDialog(users, authorizedUser);
+        getUserPasswordWindow.showDialog();
 
 
-        if (gupw.isUserSelected()) {
+        if (getUserPasswordWindow.isUserSelected()) {
             System.out.println(authorizedUser.toString());
             OptionsWindow WOMainWindow = new OptionsWindow();
             WOMainWindow.setX(0);

@@ -1,9 +1,9 @@
 package ua.amper.kharkov.sf.util;
 
-import com.sun.deploy.util.SyncFileAccess;
+import org.apache.log4j.Logger;
+import ua.amper.kharkov.sf.Main;
+import ua.amper.kharkov.sf.SFConstants;
 
-import javax.swing.*;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,37 +12,32 @@ import java.util.Properties;
 import static ua.amper.kharkov.sf.SFConstants.LOGGER_ERROR_NOT_OPEN_FILE;
 
 public class LoadPropertyFromFile {
-    boolean PropertyFile;
+    private static final Logger LOGGER = Logger.getLogger(LoadPropertyFromFile.class);
+    private boolean isLoadPropertyFile;
 
-    public boolean isPropertyFile() {
-        return PropertyFile;
+    public boolean isLoadPropertyFile() {
+        return isLoadPropertyFile;
     }
 
-    private void setPropertyFile(boolean propertyFile) {
-        PropertyFile = propertyFile;
+    private void setLoadPropertyFile(boolean loadPropertyFile) {
+        isLoadPropertyFile = loadPropertyFile;
     }
 
     private Properties properties;
-    private FileInputStream fileInputStream;
+    private InputStream fileInputStream;
 
     public LoadPropertyFromFile(String fileNamePropetries) {
-        setPropertyFile(false);
+        LOGGER.info(SFConstants.LOGGER_LOADPROPERTYFROMFILE);
+
+        setLoadPropertyFile(false);
         Properties properties = new Properties();
-        try {
-            //обращаемся к файлу и получаем данные
-            InputStream fileInputStream = getClass().getClassLoader().getResourceAsStream(fileNamePropetries);
-            if (fileInputStream != null) {
-                properties.load(fileInputStream);
-                System.out.println(fileInputStream.toString()+"=========="+properties.getProperty("USER_NAME"));
-            }
 
-
-        } catch (FileNotFoundException e) {
-            System.out.println(LOGGER_ERROR_NOT_OPEN_FILE + ":" + fileNamePropetries);
-            e.printStackTrace();
-        } catch (IOException e) {
-            System.out.println(LOGGER_ERROR_NOT_OPEN_FILE + ":" + fileNamePropetries);
-            e.printStackTrace();
+        //обращаемся к файлу и получаем данные
+        fileInputStream = getClass().getClassLoader().getResourceAsStream(fileNamePropetries);
+        if (fileInputStream != null) {
+            setLoadPropertyFile(true);
+        } else {
+            LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE + fileNamePropetries);
         }
     }
 

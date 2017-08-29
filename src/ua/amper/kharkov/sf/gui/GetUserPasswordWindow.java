@@ -156,9 +156,9 @@ public class GetUserPasswordWindow extends JDialog {
         LOGGER.info(SFConstants.LOGGER_GETUSERPASSWORDWINDOW);
         Dialogwindows = new DialogWindows(getTitleDialog());
 //        загрузка картики
-        LoadImagesFromFile liff = new LoadImagesFromFile(WOGUPW.getFileImageIconName());
-        if (liff.isUploadedImage()) {
-            setIconImage(liff.getUploadedImage());
+        LoadImagesFromFile loadImagesFromFile = new LoadImagesFromFile(WOGUPW.getFileImageIconName());
+        if (loadImagesFromFile.isUploadedImage()) {
+            setIconImage(loadImagesFromFile.getUploadedImage());
         }
     }
 
