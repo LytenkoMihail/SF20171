@@ -27,7 +27,7 @@ public class LoadPropertyFromFile {
     private InputStream fileInputStream;
 
     public LoadPropertyFromFile(String fileNamePropetries) {
-        LOGGER.info(SFConstants.LOGGER_LOADPROPERTYFROMFILE);
+        LOGGER.info(fileNamePropetries);
 
         setLoadPropertyFile(false);
         Properties properties = new Properties();

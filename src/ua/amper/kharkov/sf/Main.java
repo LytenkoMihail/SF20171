@@ -43,14 +43,14 @@ public class Main {
         System.out.println(SFConstants.LOGGER_START);
         LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
 
-        OptionsWindow OWGetUserPasswordWindow = new OptionsWindow();
-        OWGetUserPasswordWindow.setX(0);
-        OWGetUserPasswordWindow.setY(0);
-        OWGetUserPasswordWindow.setWidth(0);
-        OWGetUserPasswordWindow.setHeight(0);
-        OWGetUserPasswordWindow.setTitle(SFConstants.SF_VERSION);
-        OWGetUserPasswordWindow.setFileImageIconName(SFConstants.SF_ICON_FILE);
-        GetUserPasswordWindow getUserPasswordWindow = new GetUserPasswordWindow(OWGetUserPasswordWindow);
+        OptionsWindow optionsWindowGetUserPasswordWindow = new OptionsWindow();
+        optionsWindowGetUserPasswordWindow.setX(0);
+        optionsWindowGetUserPasswordWindow.setY(0);
+        optionsWindowGetUserPasswordWindow.setWidth(0);
+        optionsWindowGetUserPasswordWindow.setHeight(0);
+        optionsWindowGetUserPasswordWindow.setTitle(SFConstants.SF_VERSION);
+        optionsWindowGetUserPasswordWindow.setFileImageIconName(SFConstants.SF_ICON_FILE);
+        GetUserPasswordWindow getUserPasswordWindow = new GetUserPasswordWindow(optionsWindowGetUserPasswordWindow);
         getUserPasswordWindow.createDialog(users, authorizedUser);
         getUserPasswordWindow.showDialog();
 

@@ -66,7 +66,11 @@ public class GetUserPasswordWindow extends JDialog {
     private JPasswordField passwordField;
     private UserSearchPasswordCodeName userSearchPasswordCodeName;
     private DialogWindows Dialogwindows;
+    private void userNameAndPasswordError() {
+        passwordField.setText("");
+        Dialogwindows.DialogMessageError(SFConstants.USER_NAME_PASSWORD_ERROR);
 
+    }
     public void createDialog(ArrayList<User> users, User user) {
 //        String[] elements = new String[]{"Вася", "Петя"};
 
@@ -135,13 +139,16 @@ public class GetUserPasswordWindow extends JDialog {
                     userSearchPasswordCodeName = new UserSearchPasswordCodeName(users, user);
                     userSearchPasswordCodeName.SearchByNameAndPassword(name, password);
                     if (userSearchPasswordCodeName.isSearchPasswordCodeName() == false) {
-                        passwordField.setText("");
-                        Dialogwindows.DialogMessageError(SFConstants.USER_NAME_PASSWORD_ERROR);
+                        LOGGER.error(SFConstants.USER_NAME_PASSWORD_ERROR + "=" + name + "=" + password);
+                        userNameAndPasswordError();
                     } else {
+                        LOGGER.info(SFConstants.USER_NAME + "=" + name);
                         setNameUser(name);
                         setUserSelected(true);
                         hideDialog();
                     }
+                } else {
+                    userNameAndPasswordError();
                 }
             }
         });

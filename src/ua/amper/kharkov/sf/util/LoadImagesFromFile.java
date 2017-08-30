@@ -30,7 +30,7 @@ public class LoadImagesFromFile {
     }
 
     public LoadImagesFromFile(String FileImageIconName) {
-        LOGGER.info(SFConstants.LOGGER_LOADIMAGESFROMFILE);
+        LOGGER.info(FileImageIconName);
         try {
             setUploadedImage(new ImageIcon(getClass().getClassLoader().getResource(FileImageIconName)).getImage());
 
