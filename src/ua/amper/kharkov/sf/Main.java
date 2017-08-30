@@ -27,6 +27,12 @@ public class Main {
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
 
+        final UtilScreen utilScreen = new UtilScreen();
+        LOGGER.info(SFConstants.SF_VERSION);
+        LOGGER.info(SFConstants.LOGGER_START);
+        System.out.println(SFConstants.LOGGER_START);
+        LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
+
         users.ensureCapacity(1_00);
         for (Integer i = 0; i < 1_00; i++) {
             users.add(new User(i, "Петя()" + i, Integer.toString(i)));
@@ -37,11 +43,6 @@ public class Main {
 //        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
 
-        final UtilScreen utilScreen = new UtilScreen();
-        LOGGER.info(SFConstants.SF_VERSION);
-        LOGGER.info(SFConstants.LOGGER_START);
-        System.out.println(SFConstants.LOGGER_START);
-        LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
 
         OptionsWindow optionsWindowGetUserPasswordWindow = new OptionsWindow();
         optionsWindowGetUserPasswordWindow.setX(0);

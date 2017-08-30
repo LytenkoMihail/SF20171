@@ -66,18 +66,52 @@ public class GetUserPasswordWindow extends JDialog {
     private JPasswordField passwordField;
     private UserSearchPasswordCodeName userSearchPasswordCodeName;
     private DialogWindows Dialogwindows;
+
     private void userNameAndPasswordError() {
         passwordField.setText("");
         Dialogwindows.DialogMessageError(SFConstants.USER_NAME_PASSWORD_ERROR);
-
     }
+
+    private void cancelAddActionListener() {
+        cancel.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setUserSelected(false);
+                hideDialog();
+            }
+        });
+    }
+
+    private void okAddActionListener(ArrayList<User> users, User user) {
+        ok.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (combo.getSelectedIndex() != -1) {
+                    String name = (String) combo.getSelectedItem();
+                    String password = new String(passwordField.getPassword());
+                    userSearchPasswordCodeName = new UserSearchPasswordCodeName(users, user);
+                    userSearchPasswordCodeName.SearchByNameAndPassword(name, password);
+                    if (userSearchPasswordCodeName.isSearchPasswordCodeName() == false) {
+                        LOGGER.error(SFConstants.USER_NAME_PASSWORD_ERROR + "=" + name + "=" + password);
+                        userNameAndPasswordError();
+                    } else {
+                        LOGGER.info(SFConstants.USER_NAME + "=" + name);
+                        setNameUser(name);
+                        setUserSelected(true);
+                        hideDialog();
+                    }
+                } else {
+                    userNameAndPasswordError();
+                }
+            }
+        });
+    }
+
     public void createDialog(ArrayList<User> users, User user) {
-//        String[] elements = new String[]{"Вася", "Петя"};
 
         combo = new JComboBox();
         if (users.isEmpty() == false) {
             for (int i = 0; i < users.size(); i++) {
-
                 combo.addItem(users.get(i).getName());
             }
         }
@@ -121,37 +155,8 @@ public class GetUserPasswordWindow extends JDialog {
         pack();
         setResizable(false);
         setLocationRelativeTo(null);
-
-        cancel.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setUserSelected(false);
-                hideDialog();
-            }
-        });
-
-        ok.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (combo.getSelectedIndex() != -1) {
-                    String name = (String) combo.getSelectedItem();
-                    String password = new String(passwordField.getPassword());
-                    userSearchPasswordCodeName = new UserSearchPasswordCodeName(users, user);
-                    userSearchPasswordCodeName.SearchByNameAndPassword(name, password);
-                    if (userSearchPasswordCodeName.isSearchPasswordCodeName() == false) {
-                        LOGGER.error(SFConstants.USER_NAME_PASSWORD_ERROR + "=" + name + "=" + password);
-                        userNameAndPasswordError();
-                    } else {
-                        LOGGER.info(SFConstants.USER_NAME + "=" + name);
-                        setNameUser(name);
-                        setUserSelected(true);
-                        hideDialog();
-                    }
-                } else {
-                    userNameAndPasswordError();
-                }
-            }
-        });
+        cancelAddActionListener();
+        okAddActionListener(users, user);
     }
 
     public GetUserPasswordWindow(OptionsWindow WOGUPW) {
