@@ -7,7 +7,6 @@ import ua.amper.kharkov.sf.util.LoadPropertyFromFile;
 import ua.amper.kharkov.sf.util.UtilScreen;
 
 import javax.swing.*;
-import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
@@ -21,7 +20,8 @@ public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class);
 
-    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+    public static void main(String[] args) throws InvocationTargetException, InterruptedException {
+//    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 
 
         ArrayList<User> users = new ArrayList<>();
@@ -31,7 +31,10 @@ public class Main {
         LOGGER.info(SFConstants.SF_VERSION);
         LOGGER.info(SFConstants.LOGGER_START);
         System.out.println(SFConstants.LOGGER_START);
-        LoadPropertyFromFile loadPropertyFromFile = new LoadPropertyFromFile(SF_PROPERTIES_FILE);
+        LoadPropertyFromFile globalProperty = new LoadPropertyFromFile(SF_GLOBAL_PROPERTIES_FILE);
+        String S = globalProperty.getProperty("USER_NAME");
+        System.out.println(S);
+
 
         users.ensureCapacity(1_00);
         for (Integer i = 0; i < 1_00; i++) {
