@@ -32,8 +32,8 @@ public class Main {
         LOGGER.info(SFConstants.LOGGER_START);
         System.out.println(SFConstants.LOGGER_START);
         LoadPropertyFromFile globalProperty = new LoadPropertyFromFile(SF_GLOBAL_PROPERTIES_FILE);
-        String S = globalProperty.getProperty("USER_NAME");
-        System.out.println(S);
+//        String S = globalProperty.getProperty("USER_NAME");
+        System.out.println(globalProperty.getProperty("USER_NAME"));
 
 
         users.ensureCapacity(1_00);

@@ -1,21 +1,132 @@
-2017-09-01 17:09:57,002 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-09-01 17:09:57,014 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-09-01 17:09:57,036 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
-2017-09-01 17:09:57,335 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-09-01 17:09:57,366 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-09-01 17:10:16,103 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()98
-2017-09-01 17:10:16,354 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-09-01 17:10:16,354 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2017-09-01 17:10:16,423 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-09-01 17:18:15,866 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-09-01 17:18:15,881 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-09-01 17:18:15,881 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
-2017-09-01 17:18:16,113 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-09-01 17:18:16,135 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-09-01 17:18:28,416 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-09-01 17:18:59,911 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-09-01 17:18:59,911 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-09-01 17:18:59,911 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
-2017-09-01 17:18:59,977 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-09-01 17:18:59,979 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-09-01 17:19:04,082 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:41:20,081 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:41:20,081 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:41:20,113 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:41:20,460 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:41:20,498 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:41:24,649 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:47:37,115 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:47:37,146 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:47:37,168 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:47:37,532 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:47:37,547 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:47:42,295 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()3
+2017-09-06 15:47:42,342 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:47:42,342 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
+2017-09-06 15:47:42,395 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:49:30,263 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:49:30,263 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:49:30,263 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:49:56,853 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:49:56,869 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:49:56,869 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:49:56,916 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:49:56,916 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:50:19,773 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:51:09,041 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:51:09,042 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:51:09,043 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:52:06,300 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:52:06,300 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:52:06,316 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:52:06,396 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:52:06,397 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:52:34,734 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:52:49,563 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:52:49,578 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:52:49,578 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:52:49,632 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:52:49,632 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:53:26,976 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:57:45,501 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:57:45,501 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:57:45,501 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:57:45,670 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:57:45,670 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:57:49,655 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:58:28,232 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:58:28,232 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:58:28,232 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:58:28,317 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:58:28,317 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:58:32,496 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 15:59:55,117 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 15:59:55,117 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 15:59:55,117 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 15:59:55,179 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 15:59:55,179 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 15:59:59,780 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:13:34,833 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:13:34,855 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:13:34,855 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:13:35,272 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:13:35,287 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:13:58,071 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:31:36,619 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:31:36,641 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:31:36,641 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:31:36,872 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:31:36,888 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:31:45,745 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:32:25,651 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:32:25,651 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:32:25,651 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:32:25,720 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:32:25,720 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:32:30,248 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:34:08,530 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:34:08,545 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:34:08,545 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:34:08,946 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:34:08,978 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:34:16,128 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:34:36,673 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:34:36,673 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:34:36,673 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:34:36,726 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:34:36,726 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:34:40,488 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:35:15,981 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:35:15,982 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:35:15,983 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:41:14,881 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:41:14,881 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:41:14,881 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:41:14,997 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:41:14,997 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:41:32,365 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:43:52,377 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:43:52,377 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:43:52,377 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:43:52,439 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:43:52,439 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:43:58,894 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:50:27,003 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:50:27,003 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:50:27,003 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:50:27,103 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:50:27,103 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:50:38,282 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:51:22,461 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:51:22,461 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:51:22,461 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:51:22,529 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:51:22,529 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:51:29,360 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:52:19,514 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:52:19,514 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:52:19,514 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:52:19,583 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:52:19,583 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:52:21,731 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:52:26,290 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:52:26,290 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:52:26,290 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:52:26,343 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:52:26,343 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:52:31,976 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-06 16:52:38,933 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-06 16:52:38,933 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-06 16:52:38,933 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-06 16:52:38,995 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-06 16:52:38,995 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-06 16:52:41,366 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
