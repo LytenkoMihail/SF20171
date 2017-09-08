@@ -19,21 +19,31 @@ import static ua.amper.kharkov.sf.SFConstants.*;
 public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class);
+    private static DialogWindows dialogWindows;
 
-    public static void main(String[] args) throws InvocationTargetException, InterruptedException {
-//    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+//    public static void main(String[] args) throws InvocationTargetException, InterruptedException {
+    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
 
         final UtilScreen utilScreen = new UtilScreen();
-        LOGGER.info(SFConstants.SF_VERSION);
-        LOGGER.info(SFConstants.LOGGER_START);
-        System.out.println(SFConstants.LOGGER_START);
+        LOGGER.info(SF_VERSION);
+        LOGGER.info(LOGGER_START);
+        System.out.println(LOGGER_START);
         LoadPropertyFromFile globalProperty = new LoadPropertyFromFile(SF_GLOBAL_PROPERTIES_FILE);
+        System.out.println(globalProperty.isLoadPropertyFile());
+        if (!(globalProperty.isLoadPropertyFile())) {
+            dialogWindows = new DialogWindows(SF_VERSION);
+            dialogWindows.DialogMessageError(SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES_MESSAGE);
+                    System.exit(1);
+        } else {
+
+            System.out.println(globalProperty.getProperty("USER_NAME"));
+        }
 //        String S = globalProperty.getProperty("USER_NAME");
-        System.out.println(globalProperty.getProperty("USER_NAME"));
+//        System.out.println(globalProperty.getProperty("USER_NAME"));
 
 
         users.ensureCapacity(1_00);
@@ -52,8 +62,8 @@ public class Main {
         optionsWindowGetUserPasswordWindow.setY(0);
         optionsWindowGetUserPasswordWindow.setWidth(0);
         optionsWindowGetUserPasswordWindow.setHeight(0);
-        optionsWindowGetUserPasswordWindow.setTitle(SFConstants.SF_VERSION);
-        optionsWindowGetUserPasswordWindow.setFileImageIconName(SFConstants.SF_ICON_FILE);
+        optionsWindowGetUserPasswordWindow.setTitle(SF_VERSION);
+        optionsWindowGetUserPasswordWindow.setFileImageIconName(SF_ICON_FILE);
         GetUserPasswordWindow getUserPasswordWindow = new GetUserPasswordWindow(optionsWindowGetUserPasswordWindow);
         getUserPasswordWindow.createDialog(users, authorizedUser);
         getUserPasswordWindow.showDialog();
@@ -66,8 +76,8 @@ public class Main {
             WOMainWindow.setY(0);
             WOMainWindow.setWidth(utilScreen.getWidth());
             WOMainWindow.setHeight(utilScreen.getHeight());
-            WOMainWindow.setTitle(SFConstants.SF_VERSION+" ["+authorizedUser.getName()+"]");
-            WOMainWindow.setFileImageIconName(SFConstants.SF_ICON_FILE);
+            WOMainWindow.setTitle(SF_VERSION+" ["+authorizedUser.getName()+"]");
+            WOMainWindow.setFileImageIconName(SF_ICON_FILE);
 
             SwingUtilities.invokeAndWait(() ->
             {
@@ -75,8 +85,8 @@ public class Main {
                 mainwin.setVisible(true);
             });
         }
-        LOGGER.info(SFConstants.LOGGER_END);
-        System.out.println(SFConstants.LOGGER_END);
+        LOGGER.info(LOGGER_END);
+        System.out.println(LOGGER_END);
 //        System.exit(0);
     }
 }

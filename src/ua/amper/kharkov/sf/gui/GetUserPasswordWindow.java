@@ -65,11 +65,11 @@ public class GetUserPasswordWindow extends JDialog {
     private JButton cancel;
     private JPasswordField passwordField;
     private UserSearchPasswordCodeName userSearchPasswordCodeName;
-    private DialogWindows Dialogwindows;
+    private DialogWindows dialogWindows;
 
     private void userNameAndPasswordError() {
         passwordField.setText("");
-        Dialogwindows.DialogMessageError(SFConstants.USER_NAME_PASSWORD_ERROR);
+        dialogWindows.DialogMessageError(SFConstants.USER_NAME_PASSWORD_ERROR);
     }
 
     private void cancelAddActionListener() {
@@ -166,7 +166,7 @@ public class GetUserPasswordWindow extends JDialog {
         setUserSelected(false);
         setTitleDialog(WOGUPW.getTitle());
         LOGGER.info(SFConstants.LOGGER_GETUSERPASSWORDWINDOW);
-        Dialogwindows = new DialogWindows(getTitleDialog());
+        dialogWindows = new DialogWindows(getTitleDialog());
 //        загрузка картики
         LoadImagesFromFile loadImagesFromFile = new LoadImagesFromFile(WOGUPW.getFileImageIconName());
         if (loadImagesFromFile.isUploadedImage()) {

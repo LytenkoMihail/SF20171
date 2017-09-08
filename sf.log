@@ -353,3 +353,84 @@
 2017-09-06 16:52:38,995 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
 2017-09-06 16:52:38,995 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
 2017-09-06 16:52:41,366 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:29:18,448 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:29:18,484 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:29:18,485 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:29:19,059 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:29:19,097 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:29:22,027 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:29:35,561 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:29:35,561 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:29:35,592 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:29:35,655 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:29:35,656 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:29:44,632 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:32:28,455 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:32:28,470 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:32:28,470 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:32:28,533 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:32:28,534 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:32:30,419 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:32:43,124 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:32:43,125 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:32:43,126 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:32:43,210 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:32:43,211 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:32:47,487 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:33:33,359 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:33:33,359 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:33:33,359 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:33:33,428 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:33:33,428 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:33:37,314 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:35:34,810 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:35:34,826 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:35:34,826 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:35:36,027 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:35:36,064 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:35:42,853 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()3
+2017-09-08 16:35:42,891 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:35:42,891 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2017-09-08 16:35:42,969 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:42:46,011 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:42:46,042 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:42:46,042 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties
+2017-09-08 16:42:46,326 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:42:46,342 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:42:49,794 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:43:00,174 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:43:00,174 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:43:00,174 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties1
+2017-09-08 16:43:00,174 [ERROR][main            ][kharkov.sf.util.LoadPropertyFromFile] - PROPERTIES NOT OPEN !Properties/sf.properties1
+2017-09-08 16:43:00,228 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:43:00,228 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:43:26,290 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:57:01,652 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:57:01,690 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:57:01,690 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties1
+2017-09-08 16:57:01,690 [ERROR][main            ][kharkov.sf.util.LoadPropertyFromFile] - PROPERTIES NOT OPEN !Properties/sf.properties1
+2017-09-08 16:57:01,906 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:57:01,906 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:57:20,544 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 16:59:45,836 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 16:59:45,957 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 16:59:45,957 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties1
+2017-09-08 16:59:45,972 [ERROR][main            ][kharkov.sf.util.LoadPropertyFromFile] - PROPERTIES NOT OPEN !Properties/sf.properties1
+2017-09-08 16:59:48,357 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 16:59:48,388 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 16:59:57,242 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 17:04:15,836 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 17:04:15,983 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 17:04:15,983 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties1
+2017-09-08 17:04:15,983 [ERROR][main            ][kharkov.sf.util.LoadPropertyFromFile] - PROPERTIES NOT OPEN !Properties/sf.properties1
+2017-09-08 17:06:04,260 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 17:06:04,276 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 17:06:04,276 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties1
+2017-09-08 17:06:04,291 [ERROR][main            ][kharkov.sf.util.LoadPropertyFromFile] - PROPERTIES NOT OPEN !Properties/sf.properties1
+2017-09-08 17:06:38,730 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-09-08 17:06:38,730 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-09-08 17:06:41,386 [INFO ][main            ][               kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-09-08 17:07:03,369 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-09-08 17:07:03,369 [INFO ][main            ][               kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-09-08 17:07:03,369 [INFO ][main            ][kharkov.sf.util.LoadPropertyFromFile] - Properties/sf.properties1
+2017-09-08 17:07:03,369 [ERROR][main            ][kharkov.sf.util.LoadPropertyFromFile] - PROPERTIES NOT OPEN !Properties/sf.properties1

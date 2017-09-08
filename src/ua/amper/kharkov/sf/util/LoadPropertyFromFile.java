@@ -1,12 +1,13 @@
 package ua.amper.kharkov.sf.util;
 
 import org.apache.log4j.Logger;
-import ua.amper.kharkov.sf.SFConstants;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+
+import static ua.amper.kharkov.sf.SFConstants.SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES;
+import static ua.amper.kharkov.sf.SFConstants.SF_PROPERTIES_NOT__FIND;
 
 public class LoadPropertyFromFile {
     private static final Logger LOGGER = Logger.getLogger(LoadPropertyFromFile.class);
@@ -25,19 +26,14 @@ public class LoadPropertyFromFile {
 
 
     public String getProperty(String nameProperty) {
-
+        String returnString = SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES;
         if (properties!=null) {
             if (isLoadPropertyFile()) {
-//                System.out.printf("777777777777"+nameProperty);
-//                String S = properties.getProperty((String)nameProperty,SFConstants.SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES);
-//                System.out.printf(S);
-                return  properties.getProperty(nameProperty,SFConstants.SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES);
-//                return properties.getProperty(nameProperty).toString();
-            } else {
-                return SFConstants.SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES;
+                returnString=properties.getProperty(nameProperty,nameProperty+"  "+ SF_PROPERTIES_NOT__FIND );
+//                return  properties.getProperty(nameProperty, SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES);
             }
         }
-        return SFConstants.SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES+"----------------------";
+        return returnString;
     }
 
     public LoadPropertyFromFile(String fileNamePropetries) {
@@ -52,10 +48,10 @@ public class LoadPropertyFromFile {
                 properties.load(fileInputStream);
                 fileInputStream.close();
             } catch (IOException e) {
-                LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE + fileNamePropetries);
+                LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES + fileNamePropetries);
             }
         } else {
-            LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE + fileNamePropetries);
+            LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES + fileNamePropetries);
         }
     }
 
