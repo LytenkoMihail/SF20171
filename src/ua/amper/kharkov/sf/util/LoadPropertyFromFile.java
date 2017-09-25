@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import static ua.amper.kharkov.sf.SFConstants.SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES;
-import static ua.amper.kharkov.sf.SFConstants.SF_PROPERTIES_NOT__FIND;
+import static ua.amper.kharkov.sf.SFConstants.SF_PROPERTIES_FILE_NOT_OPEN;
+import static ua.amper.kharkov.sf.SFConstants.SF_PROPERTIES_FILE_NOT__FIND;
 
 public class LoadPropertyFromFile {
     private static final Logger LOGGER = Logger.getLogger(LoadPropertyFromFile.class);
@@ -26,32 +26,27 @@ public class LoadPropertyFromFile {
 
 
     public String getProperty(String nameProperty) {
-        String returnString = SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES;
-        if (properties!=null) {
+        String returnString = SF_PROPERTIES_FILE_NOT_OPEN;
             if (isLoadPropertyFile()) {
-                returnString=properties.getProperty(nameProperty,nameProperty+"  "+ SF_PROPERTIES_NOT__FIND );
-//                return  properties.getProperty(nameProperty, SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES);
+                returnString=properties.getProperty(nameProperty,nameProperty+"  "+ SF_PROPERTIES_FILE_NOT__FIND);
             }
-        }
         return returnString;
     }
 
     public LoadPropertyFromFile(String fileNamePropetries) {
         LOGGER.info(fileNamePropetries);
         setLoadPropertyFile(false);
-//        Properties properties = new Properties();
-        //обращаемся к файлу и получаем данные
         fileInputStream = getClass().getClassLoader().getResourceAsStream(fileNamePropetries);
         if (fileInputStream != null) {
             setLoadPropertyFile(true);
             try {
                 properties.load(fileInputStream);
-                fileInputStream.close();
+//                fileInputStream.close();
             } catch (IOException e) {
-                LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES + fileNamePropetries);
+                LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN + fileNamePropetries);
             }
         } else {
-            LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES + fileNamePropetries);
+            LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN + fileNamePropetries);
         }
     }
 

@@ -18,7 +18,6 @@ public class Windows extends JFrame {
     public Windows(String FileImageIconName, int X, int Y, int Width, int Height) {
         super();
         setBounds(X, Y, Width, Height);
-//        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         LoadImagesFromFile liff = new LoadImagesFromFile(FileImageIconName);
         if (liff.isUploadedImage()) {

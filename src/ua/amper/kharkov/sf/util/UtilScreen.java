@@ -8,7 +8,7 @@ import static ua.amper.kharkov.sf.SFConstants.*;
 /**
  * Created by amper on 23.05.2017.
  */
-public final class UtilScreen {
+public class UtilScreen {
     private int Width;//ширина
     private int Height;//высота
 

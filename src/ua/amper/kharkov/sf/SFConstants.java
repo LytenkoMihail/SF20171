@@ -22,13 +22,14 @@ public final class SFConstants {
     public static final String BUTTON_NO = "НЕТ";
     public static final String BUTTON_CANCEL = "ОТМЕНА";
 
-    public static final String EXIT_THE_PROGRAM = "Завершить работу с программой ?";
+    public static final String SF_EXIT_THE_PROGRAM = "Завершить работу с программой ?";
 
-    public static final String SF_ICON_FILE = "Images/invoice_document_file.png";
-    public static final String SF_GLOBAL_PROPERTIES_FILE = "Properties/sf.properties";
-    public static final String SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES = "PROPERTIES NOT OPEN !";
-    public static final String SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES_MESSAGE = "Файл с настройками не найден!";
-    public static final String SF_PROPERTIES_NOT__FIND = "PROPERTIES NOT FIND !";
+    public static final String SF_RESOURCES_FILE_ICON_PROGRAMM = "Images/invoice_document_file.png";
+    public static final String SF_RESOURCES_FILE_PROPERTIES_SF_PROPERTIES = "Properties/sf.properties";
+
+    public static final String SF_PROPERTIES_FILE_NOT_OPEN = "PROPERTIES NOT OPEN !";
+    public static final String SF_PROPERTIES_FILE_NOT_OPEN_MESSAGE = "Файл с настройками не найден!";
+    public static final String SF_PROPERTIES_FILE_NOT__FIND = "PROPERTIES NOT FIND !";
 
     public static final String USER_NAME = "Пользователь:";
     public static final String USER_PASSWORD = "Пароль:      ";

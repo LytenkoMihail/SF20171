@@ -20,41 +20,48 @@ public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class);
     private static DialogWindows dialogWindows;
+    private static UtilScreen utilScreen = new UtilScreen();
 
-//    public static void main(String[] args) throws InvocationTargetException, InterruptedException {
+    private static void starProgramma() {
+//        final UtilScreen utilScreen = new UtilScreen();
+        LOGGER.info(SF_VERSION);
+        LOGGER.info(LOGGER_START);
+        System.out.println(LOGGER_START);
+
+    }
+
+    private static void exitProgramma() {
+
+    }
+
+    private static void runProgramma() {
+
+    }
+
     public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
-
-        final UtilScreen utilScreen = new UtilScreen();
-        LOGGER.info(SF_VERSION);
-        LOGGER.info(LOGGER_START);
-        System.out.println(LOGGER_START);
-        LoadPropertyFromFile globalProperty = new LoadPropertyFromFile(SF_GLOBAL_PROPERTIES_FILE);
-        System.out.println(globalProperty.isLoadPropertyFile());
-        if (!(globalProperty.isLoadPropertyFile())) {
-            dialogWindows = new DialogWindows(SF_VERSION);
-            dialogWindows.DialogMessageError(SF_PROPERTIES_FILE_NOT_OPEN_PROPERTIES_MESSAGE);
-                    System.exit(1);
-        } else {
-
-            System.out.println(globalProperty.getProperty("USER_NAME"));
-        }
-//        String S = globalProperty.getProperty("USER_NAME");
-//        System.out.println(globalProperty.getProperty("USER_NAME"));
-
-
         users.ensureCapacity(1_00);
         for (Integer i = 0; i < 1_00; i++) {
             users.add(new User(i, "Петя()" + i, Integer.toString(i)));
         }
 
+        starProgramma();
+        LoadPropertyFromFile globalProperty = new LoadPropertyFromFile(SF_RESOURCES_FILE_PROPERTIES_SF_PROPERTIES);
+        System.out.println(globalProperty.isLoadPropertyFile());
+        if (!(globalProperty.isLoadPropertyFile())) {
+            dialogWindows = new DialogWindows(SF_VERSION);
+            dialogWindows.DialogMessageError(SF_PROPERTIES_FILE_NOT_OPEN_MESSAGE);
+            System.exit(1);
+        } else {
+
+            System.out.println(globalProperty.getProperty("USER_NAME"));
+        }
 
 /* Пусть наш GUI будет в стиле ОС */
 //        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-
 
 
         OptionsWindow optionsWindowGetUserPasswordWindow = new OptionsWindow();
@@ -63,7 +70,7 @@ public class Main {
         optionsWindowGetUserPasswordWindow.setWidth(0);
         optionsWindowGetUserPasswordWindow.setHeight(0);
         optionsWindowGetUserPasswordWindow.setTitle(SF_VERSION);
-        optionsWindowGetUserPasswordWindow.setFileImageIconName(SF_ICON_FILE);
+        optionsWindowGetUserPasswordWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
         GetUserPasswordWindow getUserPasswordWindow = new GetUserPasswordWindow(optionsWindowGetUserPasswordWindow);
         getUserPasswordWindow.createDialog(users, authorizedUser);
         getUserPasswordWindow.showDialog();
@@ -76,8 +83,8 @@ public class Main {
             WOMainWindow.setY(0);
             WOMainWindow.setWidth(utilScreen.getWidth());
             WOMainWindow.setHeight(utilScreen.getHeight());
-            WOMainWindow.setTitle(SF_VERSION+" ["+authorizedUser.getName()+"]");
-            WOMainWindow.setFileImageIconName(SF_ICON_FILE);
+            WOMainWindow.setTitle(SF_VERSION + " [" + authorizedUser.getName() + "]");
+            WOMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
 
             SwingUtilities.invokeAndWait(() ->
             {
@@ -89,4 +96,7 @@ public class Main {
         System.out.println(LOGGER_END);
 //        System.exit(0);
     }
+
+
+
 }
