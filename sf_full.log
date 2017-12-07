@@ -1,54 +1,16 @@
-2017-11-21 15:33:37,884 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 15:33:37,884 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 15:33:37,931 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 15:33:37,946 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 15:33:40,290 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 16:52:09,794 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 16:52:09,841 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 16:52:10,800 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 16:52:10,851 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 16:53:18,539 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 17:10:33,274 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:10:33,305 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:10:33,383 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:10:33,383 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:10:47,665 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()99
-2017-11-21 17:10:47,681 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:10:47,681 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2017-11-21 17:10:47,712 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 17:13:58,129 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:13:58,129 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:13:58,286 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:13:58,286 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:13:59,786 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 17:19:33,132 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:19:33,132 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:19:33,194 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:19:33,194 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:19:38,773 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()1
-2017-11-21 17:19:38,773 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 17:25:26,407 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:25:26,407 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:25:26,454 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:25:26,454 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:25:32,032 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()1
-2017-11-21 17:25:32,048 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:25:32,048 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2017-11-21 17:25:32,064 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 17:26:30,942 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:26:30,942 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:26:30,989 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:26:30,989 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:26:33,349 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2017-11-21 17:32:53,507 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:32:53,523 [INFO ][main            ][ ua.amper.kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:32:53,570 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:32:53,570 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:34:41,319 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
-2017-11-21 17:34:41,319 [INFO ][main            ][ ua.amper.kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2017-11-21 17:34:41,366 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2017-11-21 17:34:41,366 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:34:47,644 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()2
-2017-11-21 17:34:47,659 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2017-11-21 17:34:47,659 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2017-11-21 17:34:47,675 [INFO ][main            ][  ua.amper.kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-12-07 17:14:18,382 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-12-07 17:14:18,413 [INFO ][main            ][ ua.amper.kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-12-07 17:14:18,600 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-12-07 17:14:18,616 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:14:23,819 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()1
+2017-12-07 17:14:23,882 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:14:23,882 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
+2017-12-07 17:14:23,913 [INFO ][main            ][  ua.amper.kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-12-07 17:16:03,427 [INFO ][main            ][      ua.amper.kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-12-07 17:16:03,459 [INFO ][main            ][ ua.amper.kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-12-07 17:16:03,615 [INFO ][main            ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-12-07 17:16:03,646 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:16:09,662 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()2
+2017-12-07 17:16:09,662 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:16:09,662 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
+2017-12-07 17:16:09,678 [INFO ][main            ][  ua.amper.kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

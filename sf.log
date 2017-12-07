@@ -52,3 +52,37 @@
 2017-11-21 17:34:47,659 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
 2017-11-21 17:34:47,659 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
 2017-11-21 17:34:47,675 [INFO ][main            ][           kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-11-30 12:43:23,544 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-11-30 12:43:23,607 [INFO ][main            ][          kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-11-30 12:43:23,732 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-11-30 12:43:23,748 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-11-30 12:43:29,041 [INFO ][main            ][           kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-11-30 12:46:38,818 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-11-30 12:46:38,865 [INFO ][main            ][          kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-11-30 12:46:38,928 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-11-30 12:46:38,928 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-11-30 12:46:41,553 [INFO ][main            ][           kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-12-04 16:19:44,517 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-12-04 16:19:44,550 [INFO ][main            ][          kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-12-04 16:19:44,708 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-12-04 16:19:44,710 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-04 16:19:59,821 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()3
+2017-12-04 16:20:00,198 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-04 16:20:00,199 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2017-12-04 16:20:00,215 [INFO ][main            ][           kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-12-07 17:14:18,382 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-12-07 17:14:18,413 [INFO ][main            ][          kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-12-07 17:14:18,600 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-12-07 17:14:18,616 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:14:23,819 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()1
+2017-12-07 17:14:23,882 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:14:23,882 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2017-12-07 17:14:23,913 [INFO ][main            ][           kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2017-12-07 17:16:03,427 [INFO ][main            ][               kharkov.sf.Main] - Счет-фактура версия 2017.1.0
+2017-12-07 17:16:03,459 [INFO ][main            ][          kharkov.sf.MainStart] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2017-12-07 17:16:03,615 [INFO ][main            ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2017-12-07 17:16:03,646 [INFO ][main            ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:16:09,662 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()2
+2017-12-07 17:16:09,662 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2017-12-07 17:16:09,662 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2017-12-07 17:16:09,678 [INFO ][main            ][           kharkov.sf.MainStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -9,7 +9,7 @@ public class MainStop {
     public MainStop() {
         LOGGER.info(LOGGER_END);
         System.out.println(LOGGER_END);
-        System.exit(0);
+//        System.exit(0);
 
     }
 }

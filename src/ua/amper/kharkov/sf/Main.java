@@ -40,7 +40,7 @@ public class Main {
 
         MainStart mainStart = new MainStart();
         mainStart.UserInputAndPassword(users,authorizedUser);
-        mainStart.isPasswordEnteredCorrectly();
+//        mainStart.isPasswordEnteredCorrectly();
         if (mainStart.isPasswordEnteredCorrectly()) {
 
                 System.out.println(authorizedUser.toString());

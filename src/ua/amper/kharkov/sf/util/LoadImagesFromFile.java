@@ -29,14 +29,14 @@ public class LoadImagesFromFile {
         }
     }
 
-    public LoadImagesFromFile(String FileImageIconName) {
-        LOGGER.info(FileImageIconName);
+    public LoadImagesFromFile(String fileImageIconName) {
+        LOGGER.info(fileImageIconName);
         try {
-            setUploadedImage(new ImageIcon(getClass().getClassLoader().getResource(FileImageIconName)).getImage());
+            setUploadedImage(new ImageIcon(getClass().getClassLoader().getResource(fileImageIconName)).getImage());
 
         } catch (Exception e) {
             setUploadedImage(null);
-            LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE+FileImageIconName);
+            LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE+fileImageIconName);
         }
     }
 }
