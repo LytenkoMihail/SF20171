@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import static ua.amper.kharkov.sf.SFConstants.SF_EXIT_THE_PROGRAM;
+import static ua.amper.kharkov.sf.SFConstants.MSG_EXIT_THE_PROGRAM;
 
 /**
  * Created by amper on 23.05.2017.
@@ -19,7 +19,7 @@ private void exitFromProgram() {
         @Override
         public void windowClosing(WindowEvent e) {
             //потверждение выхода из программы
-            int res = JOptionPane.showConfirmDialog(e.getWindow(), SF_EXIT_THE_PROGRAM, SFConstants.SF_VERSION, JOptionPane.YES_OPTION);
+            int res = JOptionPane.showConfirmDialog(e.getWindow(), MSG_EXIT_THE_PROGRAM, SFConstants.SF_VERSION, JOptionPane.YES_OPTION);
             if (res == JOptionPane.YES_OPTION) {
                 e.getWindow().setVisible(false);
                 e.getWindow().dispose();

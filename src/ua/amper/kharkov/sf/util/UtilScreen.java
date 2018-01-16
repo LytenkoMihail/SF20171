@@ -36,10 +36,10 @@ public class UtilScreen {
         setHeight(screenSize.height);
         setWidth(screenSize.width);
         //        Для быстрой локализации диалогов
-        UIManager.put("OptionPane.yesButtonText", BUTTON_YES);
-        UIManager.put("OptionPane.noButtonText", BUTTON_NO);
-        UIManager.put("OptionPane.cancelButtonText", BUTTON_CANCEL);
-        UIManager.put("OptionPane.okButtonText", BUTTON_OK);
+        UIManager.put("OptionPane.yesButtonText", MSG_BUTTON_YES);
+        UIManager.put("OptionPane.noButtonText", MSG_BUTTON_NO);
+        UIManager.put("OptionPane.cancelButtonText", MSG_BUTTON_CANCEL);
+        UIManager.put("OptionPane.okButtonText", MSG_BUTTON_OK);
 
     }
 }

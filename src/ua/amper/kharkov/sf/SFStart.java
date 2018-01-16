@@ -11,8 +11,9 @@ import static ua.amper.kharkov.sf.SFConstants.LOGGER_START;
 import static ua.amper.kharkov.sf.SFConstants.SF_RESOURCES_FILE_ICON_PROGRAMM;
 import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 
-public class MainStart {
-    private static final Logger LOGGER = Logger.getLogger(MainStart.class);
+public class SFStart extends Thread {
+    private static final Logger LOGGER = Logger.getLogger(SFStart.class);
+    private SF parrent = null;
     private boolean passwordEnteredCorrectly;
     public boolean isPasswordEnteredCorrectly() {
         return passwordEnteredCorrectly;
@@ -36,9 +37,9 @@ public class MainStart {
     }
 
 
+    public SFStart(SF caller) {
+        parrent = caller;
 
-    public MainStart() {
-        LOGGER.info(LOGGER_START);
         passwordEnteredCorrectly = false;
         System.out.println(LOGGER_START);
     }

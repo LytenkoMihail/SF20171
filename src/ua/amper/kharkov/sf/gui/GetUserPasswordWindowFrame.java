@@ -28,14 +28,14 @@ public class GetUserPasswordWindowFrame extends Windows {
 
 // Настраиваем первую горизонтальную панель (для ввода логина)
         Box box1 = Box.createHorizontalBox();
-        JLabel loginLabel = new JLabel(SFConstants.USER_NAME);
+        JLabel loginLabel = new JLabel(SFConstants.MSG_USER_NAME);
         box1.add(loginLabel);
         box1.add(Box.createHorizontalStrut(6));
         box1.add(combo);
 
 // Настраиваем вторую горизонтальную панель (для ввода пароля)
         Box box2 = Box.createHorizontalBox();
-        JLabel passwordLabel = new JLabel(SFConstants.USER_PASSWORD);
+        JLabel passwordLabel = new JLabel(SFConstants.MSG_USER_PASSWORD);
 //        длина поля для ввода пароля количество знаков
         passwordField = new JPasswordField(20);
         box2.add(passwordLabel);
@@ -43,8 +43,8 @@ public class GetUserPasswordWindowFrame extends Windows {
         box2.add(passwordField);
 // Настраиваем третью горизонтальную панель (с кнопками)
         Box box3 = Box.createHorizontalBox();
-        JButton ok = new JButton(SFConstants.BUTTON_YES);
-        JButton cancel = new JButton(SFConstants.BUTTON_CANCEL);
+        JButton ok = new JButton(SFConstants.MSG_BUTTON_YES);
+        JButton cancel = new JButton(SFConstants.MSG_BUTTON_CANCEL);
         box3.add(Box.createHorizontalGlue());
         box3.add(ok);
         box3.add(Box.createHorizontalStrut(12));
