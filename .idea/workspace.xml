@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sf.log" afterPath="$PROJECT_DIR$/sf.log" />
-      <change beforePath="$PROJECT_DIR$/sf_full.log" afterPath="$PROJECT_DIR$/sf_full.log" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStart.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStart.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1013,7 +1008,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516114705080</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Изменение архитектуры приложения (класс Маин).">
+      <created>1516204194467</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516204194467</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
