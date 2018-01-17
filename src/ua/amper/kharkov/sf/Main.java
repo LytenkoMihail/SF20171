@@ -2,14 +2,9 @@ package ua.amper.kharkov.sf;
 
 import org.apache.log4j.Logger;
 import ua.amper.kharkov.sf.dao.User;
-import ua.amper.kharkov.sf.gui.*;
-import ua.amper.kharkov.sf.util.UtilScreen;
 
-import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
-
-import static ua.amper.kharkov.sf.SFConstants.*;
 
 
 /**
@@ -20,15 +15,18 @@ public class Main {
     private static final Logger LOGGER = Logger.getLogger(Main.class);
 
     public static void main(String[] args) throws InvocationTargetException, InterruptedException {
-        /* Пусть наш GUI будет в стиле ОС */
-//        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+
+        ArrayList<User> users = new ArrayList<>();
+        User authorizedUser = new User();
+
         if (args.length == 0) {
 
-            SF sf = new SF();
-        } else {
-
+            SF sF = new SF();
+            sF.connectingToDataBase(users);
+            if (sF.isConnectingDataBase() == true) {
+                sF.start(users,authorizedUser);
+            }
         }
-
         SFStop mainStop = new SFStop();
     }
 

@@ -14,12 +14,32 @@ import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 public class SFStart extends Thread {
     private static final Logger LOGGER = Logger.getLogger(SFStart.class);
     private SF parrent = null;
+
+    public ArrayList<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(ArrayList<User> users) {
+        this.users = users;
+    }
+
+    public User getAuthorizedUser() {
+        return authorizedUser;
+    }
+
+    public void setAuthorizedUser(User authorizedUser) {
+        this.authorizedUser = authorizedUser;
+    }
+
+    private ArrayList<User> users;
+    private User authorizedUser;
     private boolean passwordEnteredCorrectly;
+
     public boolean isPasswordEnteredCorrectly() {
         return passwordEnteredCorrectly;
     }
 
-    public void UserInputAndPassword (ArrayList<User> users, User authorizedUser) {
+    private void UserInputAndPassword(ArrayList<User> users, User authorizedUser) {
         OptionsWindow optionsWindowGetUserPasswordWindow = new OptionsWindow();
         optionsWindowGetUserPasswordWindow.setX(0);
         optionsWindowGetUserPasswordWindow.setY(0);
@@ -36,11 +56,19 @@ public class SFStart extends Thread {
 
     }
 
-
-    public SFStart(SF caller) {
+    public SFStart(SF caller,ArrayList<User> users, User authorizedUser) {
+        setUsers(users);
+        setAuthorizedUser(authorizedUser);
         parrent = caller;
-
         passwordEnteredCorrectly = false;
         System.out.println(LOGGER_START);
+    }
+
+    @Override
+    public void run() {
+        UserInputAndPassword(getUsers(), getAuthorizedUser());
+        synchronized (parrent) {
+            parrent.notify();
+        }
     }
 }

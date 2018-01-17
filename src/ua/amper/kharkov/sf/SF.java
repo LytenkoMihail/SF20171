@@ -17,34 +17,33 @@ import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 
 public class SF {
     private static final Logger LOGGER = Logger.getLogger(SF.class);
-    private static DialogWindows dialogWindows;
+    //    private static DialogWindows dialogWindows;
     private static UtilScreen utilScreen = new UtilScreen();
-    private static SFStart mainStart;
-    private static SFStop mainStop;
+    //    private static SFStart mainStart;
+//    private static SFStop mainStop;
+    private boolean connectingDataBase;
 
-    public SF() throws InvocationTargetException, InterruptedException {
-        LOGGER.info(SF_VERSION);
-        LOGGER.info(LOGGER_START);
+    public boolean isConnectingDataBase() {
+        return connectingDataBase;
+    }
 
-        ArrayList<User> users = new ArrayList<>();
-        User authorizedUser = new User();
-        users.ensureCapacity(1_000_000);
-        for (Integer i = 0; i < 1_00; i++) {
-            users.add(new User(i, "Петя()" + i, Integer.toString(i)));
+    public void start(ArrayList<User> users, User user) throws InterruptedException, InvocationTargetException {
+        SFStart sfStart = new SFStart(this,users, user);
+        sfStart.start();
+//        sfStart.UserInputAndPassword(users, user);
+        synchronized (this) {
+            wait();
         }
-        SFStart mainStart = new SFStart(this);
-
-        mainStart.UserInputAndPassword(users,authorizedUser);
-//        mainStart.isPasswordEnteredCorrectly();
-        if (mainStart.isPasswordEnteredCorrectly()) {
-
-            System.out.println(authorizedUser.toString());
+        System.out.println("wait");
+        if (sfStart.isPasswordEnteredCorrectly()) {
+            System.out.println("isPasswordEnteredCorrectly");
+            System.out.println(user.toString());
             OptionsWindow WOMainWindow = new OptionsWindow();
             WOMainWindow.setX(0);
             WOMainWindow.setY(0);
             WOMainWindow.setWidth(utilScreen.getWidth());
             WOMainWindow.setHeight(utilScreen.getHeight());
-            WOMainWindow.setTitle(SF_VERSION + " [" + authorizedUser.getName() + "]");
+            WOMainWindow.setTitle(SF_VERSION + " [" + user.getName() + "]");
             WOMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
 
             SwingUtilities.invokeAndWait(() ->
@@ -55,6 +54,22 @@ public class SF {
 
 
         }
+    }
 
+    public void connectingToDataBase(ArrayList<User> users) {
+        users.ensureCapacity(1_000_000);
+        for (Integer i = 0; i < 1_00; i++) {
+            users.add(new User(i, "Петя()" + i, Integer.toString(i)));
+        }
+        connectingDataBase = true;
+    }
+
+    public SF() throws InvocationTargetException, InterruptedException {
+        /* Пусть наш GUI будет в стиле ОС */
+//        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+
+        LOGGER.info(SF_VERSION);
+        LOGGER.info(LOGGER_START);
+        connectingDataBase = false;
     }
 }
