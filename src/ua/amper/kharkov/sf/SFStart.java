@@ -68,6 +68,7 @@ public class SFStart extends Thread {
     public void run() {
         UserInputAndPassword(getUsers(), getAuthorizedUser());
         synchronized (parrent) {
+
             parrent.notify();
         }
     }

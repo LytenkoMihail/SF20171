@@ -25,6 +25,9 @@ public class Main {
             sF.connectingToDataBase(users);
             if (sF.isConnectingDataBase() == true) {
                 sF.start(users,authorizedUser);
+                if (sF.isPasswordEnteredCorrectly() == true) {
+                    sF.run(authorizedUser);
+                }
             }
         }
         SFStop mainStop = new SFStop();

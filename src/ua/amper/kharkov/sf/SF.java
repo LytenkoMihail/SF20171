@@ -18,7 +18,7 @@ import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 public class SF {
     private static final Logger LOGGER = Logger.getLogger(SF.class);
     //    private static DialogWindows dialogWindows;
-    private static UtilScreen utilScreen = new UtilScreen();
+
     //    private static SFStart mainStart;
 //    private static SFStop mainStop;
     private boolean connectingDataBase;
@@ -27,33 +27,32 @@ public class SF {
         return connectingDataBase;
     }
 
-    public void start(ArrayList<User> users, User user) throws InterruptedException, InvocationTargetException {
-        SFStart sfStart = new SFStart(this,users, user);
-        sfStart.start();
-//        sfStart.UserInputAndPassword(users, user);
+    public void setPasswordEnteredCorrectly(boolean passwordEnteredCorrectly) {
+        PasswordEnteredCorrectly = passwordEnteredCorrectly;
+    }
+
+    private boolean PasswordEnteredCorrectly;
+
+    public boolean isPasswordEnteredCorrectly() {
+        return PasswordEnteredCorrectly;
+    }
+
+    public void run(User authorizedUser) throws InterruptedException, InvocationTargetException {
+        SFRun sfRun = new SFRun(this,authorizedUser);
+        sfRun.start();
         synchronized (this) {
             wait();
         }
-        System.out.println("wait");
-        if (sfStart.isPasswordEnteredCorrectly()) {
-            System.out.println("isPasswordEnteredCorrectly");
-            System.out.println(user.toString());
-            OptionsWindow WOMainWindow = new OptionsWindow();
-            WOMainWindow.setX(0);
-            WOMainWindow.setY(0);
-            WOMainWindow.setWidth(utilScreen.getWidth());
-            WOMainWindow.setHeight(utilScreen.getHeight());
-            WOMainWindow.setTitle(SF_VERSION + " [" + user.getName() + "]");
-            WOMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
 
-            SwingUtilities.invokeAndWait(() ->
-            {
-                MainWindow mainwin = new MainWindow(WOMainWindow);
-                mainwin.setVisible(true);
-            });
-
-
+    }
+    public void start(ArrayList<User> users, User user) throws InterruptedException, InvocationTargetException {
+        SFStart sfStart = new SFStart(this,users, user);
+        sfStart.start();
+        synchronized (this) {
+            System.out.println("wait();");
+            wait();
         }
+        if (sfStart.isPasswordEnteredCorrectly()) setPasswordEnteredCorrectly(true);
     }
 
     public void connectingToDataBase(ArrayList<User> users) {
@@ -71,5 +70,6 @@ public class SF {
         LOGGER.info(SF_VERSION);
         LOGGER.info(LOGGER_START);
         connectingDataBase = false;
+        PasswordEnteredCorrectly= false;
     }
 }

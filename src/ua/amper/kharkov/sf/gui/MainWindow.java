@@ -14,6 +14,17 @@ import static ua.amper.kharkov.sf.SFConstants.MSG_EXIT_THE_PROGRAM;
  */
 public class MainWindow extends Windows {
     private static final Logger LOGGER = Logger.getLogger(MainWindow.class);
+
+    public boolean isRunningTheProgram() {
+        return runningTheProgram;
+    }
+
+    public void setRunningTheProgram(boolean runningTheProgram) {
+        this.runningTheProgram = runningTheProgram;
+    }
+
+    private boolean runningTheProgram;
+
 private void exitFromProgram() {
     addWindowListener(new WindowAdapter() {
         @Override
@@ -23,6 +34,7 @@ private void exitFromProgram() {
             if (res == JOptionPane.YES_OPTION) {
                 e.getWindow().setVisible(false);
                 e.getWindow().dispose();
+                setRunningTheProgram(false);
                 return;
             }
         }
@@ -33,6 +45,7 @@ private void exitFromProgram() {
         LOGGER.info(SFConstants.LOGGER_MAINWINDOW);
         setTitle(WO.getTitle());
         setExtendedState(Windows.MAXIMIZED_BOTH);
+        setRunningTheProgram(true);
         exitFromProgram();
 
 
