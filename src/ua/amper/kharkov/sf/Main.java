@@ -2,9 +2,14 @@ package ua.amper.kharkov.sf;
 
 import org.apache.log4j.Logger;
 import ua.amper.kharkov.sf.dao.User;
+import ua.amper.kharkov.sf.gui.DialogWindows;
 
+import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+
+import static ua.amper.kharkov.sf.SFConstants.MSG_DB_CONNECTINGDATABASE_ERROR;
+import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 
 
 /**
@@ -14,23 +19,29 @@ public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class);
 
-    public static void main(String[] args) throws InvocationTargetException, InterruptedException {
+    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
 
+        SF sF = new SF();
+        DialogWindows dialogWindows = new DialogWindows(SF_VERSION);
         if (args.length == 0) {
-
-            SF sF = new SF();
             sF.connectingToDataBase(users);
             if (sF.isConnectingDataBase() == true) {
-                sF.start(users,authorizedUser);
+                sF.start(users, authorizedUser);
                 if (sF.isPasswordEnteredCorrectly() == true) {
                     sF.run(authorizedUser);
                 }
+            } else {
+                dialogWindows.DialogMessageError(MSG_DB_CONNECTINGDATABASE_ERROR);
+                LOGGER.error(SFConstants.MSG_DB_CONNECTINGDATABASE_ERROR);
+
             }
         }
-        SFStop mainStop = new SFStop();
+
+        sF.stop();
+
     }
 
 }

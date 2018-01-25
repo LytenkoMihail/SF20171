@@ -2,25 +2,16 @@ package ua.amper.kharkov.sf;
 
 import org.apache.log4j.Logger;
 import ua.amper.kharkov.sf.dao.User;
-import ua.amper.kharkov.sf.gui.DialogWindows;
-import ua.amper.kharkov.sf.gui.MainWindow;
-import ua.amper.kharkov.sf.gui.OptionsWindow;
-import ua.amper.kharkov.sf.util.UtilScreen;
 
 import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
 import static ua.amper.kharkov.sf.SFConstants.LOGGER_START;
-import static ua.amper.kharkov.sf.SFConstants.SF_RESOURCES_FILE_ICON_PROGRAMM;
 import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 
 public class SF {
     private static final Logger LOGGER = Logger.getLogger(SF.class);
-    //    private static DialogWindows dialogWindows;
-
-    //    private static SFStart mainStart;
-//    private static SFStop mainStop;
     private boolean connectingDataBase;
 
     public boolean isConnectingDataBase() {
@@ -54,7 +45,10 @@ public class SF {
         }
         if (sfStart.isPasswordEnteredCorrectly()) setPasswordEnteredCorrectly(true);
     }
-
+public  void  stop () {
+    SFStop mainStop = new SFStop();
+    mainStop.stop();
+}
     public void connectingToDataBase(ArrayList<User> users) {
         users.ensureCapacity(1_000_000);
         for (Integer i = 0; i < 1_00; i++) {
@@ -63,13 +57,14 @@ public class SF {
         connectingDataBase = true;
     }
 
-    public SF() throws InvocationTargetException, InterruptedException {
+    public SF() throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
         /* Пусть наш GUI будет в стиле ОС */
-//        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
         LOGGER.info(SF_VERSION);
         LOGGER.info(LOGGER_START);
         connectingDataBase = false;
         PasswordEnteredCorrectly= false;
+        System.out.println(LOGGER_START);
     }
 }

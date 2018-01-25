@@ -1,26 +1,56 @@
-2018-01-23 15:11:43,516 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-23 15:11:43,532 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-23 15:11:43,813 [INFO ][Thread-0        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-23 15:11:43,829 [INFO ][Thread-0        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:12:31,145 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-23 15:12:56,222 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-23 15:12:56,222 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-23 15:12:56,362 [INFO ][Thread-0        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-23 15:12:56,362 [INFO ][Thread-0        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:13:04,847 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-23 15:15:51,934 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-23 15:15:51,934 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-23 15:15:52,059 [INFO ][Thread-0        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-23 15:15:52,059 [INFO ][Thread-0        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:15:57,496 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()0
-2018-01-23 15:15:57,575 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:15:57,575 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2018-01-23 15:15:57,621 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-23 15:36:51,499 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-23 15:36:51,531 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-23 15:36:51,930 [INFO ][Thread-0        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-23 15:36:51,945 [INFO ][Thread-0        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:36:56,627 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()0
-2018-01-23 15:36:56,689 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:36:56,689 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2018-01-23 15:37:03,787 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 12:37:23,231 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 12:37:23,247 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 12:37:27,653 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.
+2018-01-25 12:37:27,653 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:13:42,171 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:13:42,192 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:13:51,530 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-01-25 17:13:51,560 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:15:16,405 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:15:16,410 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:15:18,319 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-01-25 17:15:18,321 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:16:10,401 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:16:10,402 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:16:10,594 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:16:10,607 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:16:20,649 [ERROR][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.=Петя()61=600
+2018-01-25 17:16:32,937 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:25:26,690 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:25:26,690 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:25:26,764 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:25:26,764 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:25:34,756 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:25:43,811 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:25:43,811 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:25:43,889 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:25:43,889 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:25:46,506 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:28:11,542 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:28:11,542 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:28:11,620 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:28:11,620 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:28:15,089 [ERROR][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.=Петя()2=222
+2018-01-25 17:28:26,045 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:28:31,419 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:28:31,419 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:28:31,498 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:28:31,498 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:28:38,389 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:28:42,988 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:28:42,988 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:28:43,066 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:28:43,066 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:28:46,160 [ERROR][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.=Петя()1=3434534
+2018-01-25 17:28:48,566 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-01-25 17:28:52,593 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-01-25 17:28:52,593 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-01-25 17:28:52,687 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-01-25 17:28:52,687 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-01-25 17:28:56,518 [ERROR][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.=Петя()2=4564545
+2018-01-25 17:29:29,546 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

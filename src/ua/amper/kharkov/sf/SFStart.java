@@ -61,7 +61,7 @@ public class SFStart extends Thread {
         setAuthorizedUser(authorizedUser);
         parrent = caller;
         passwordEnteredCorrectly = false;
-        System.out.println(LOGGER_START);
+
     }
 
     @Override
