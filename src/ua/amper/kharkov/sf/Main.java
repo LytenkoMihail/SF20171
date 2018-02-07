@@ -5,6 +5,7 @@ import ua.amper.kharkov.sf.dao.User;
 import ua.amper.kharkov.sf.gui.DialogWindows;
 
 import javax.swing.*;
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
@@ -19,7 +20,7 @@ public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class);
 
-    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+    public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException, IOException {
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();

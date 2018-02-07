@@ -70,7 +70,6 @@ public class GetUserPasswordWindow extends JDialog {
     private void userNameAndPasswordError() {
         passwordField.setText("");
         dialogWindows.DialogMessageError(SFConstants.MSG_USER_NAME_PASSWORD_ERROR);
-//        passwordLabel.requestFocus();
     }
 
     private void cancelAddActionListener() {
@@ -129,11 +128,12 @@ public class GetUserPasswordWindow extends JDialog {
         passwordLabel = new JLabel(SFConstants.MSG_USER_PASSWORD);
 //        длина поля для ввода пароля количество знаков
         passwordField = new JPasswordField(20);
-        char echoChar  = SFConstants.ECHO_CHAR_USER_PASSWORD.charAt(0);
+        char echoChar = SFConstants.ECHO_CHAR_USER_PASSWORD.charAt(0);
         passwordField.setEchoChar(echoChar);
         box2.add(passwordLabel);
         box2.add(Box.createHorizontalStrut(6));
         box2.add(passwordField);
+
 
 // Настраиваем третью горизонтальную панель (с кнопками)
         Box box3 = Box.createHorizontalBox();
@@ -159,6 +159,7 @@ public class GetUserPasswordWindow extends JDialog {
         setLocationRelativeTo(null);
         cancelAddActionListener();
         okAddActionListener(users, user);
+
     }
 
     public GetUserPasswordWindow(OptionsWindow WOGUPW) {

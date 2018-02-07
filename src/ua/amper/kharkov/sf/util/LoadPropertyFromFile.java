@@ -34,14 +34,16 @@ public class LoadPropertyFromFile {
     }
 
     public LoadPropertyFromFile(String fileNamePropetries) {
-        LOGGER.info(fileNamePropetries);
         setLoadPropertyFile(false);
+
+        LOGGER.info(fileNamePropetries);
+
         fileInputStream = getClass().getClassLoader().getResourceAsStream(fileNamePropetries);
         if (fileInputStream != null) {
             setLoadPropertyFile(true);
             try {
                 properties.load(fileInputStream);
-//                fileInputStream.close();
+
             } catch (IOException e) {
                 LOGGER.error(SF_PROPERTIES_FILE_NOT_OPEN + fileNamePropetries);
             }

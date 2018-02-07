@@ -1,98 +1,52 @@
-2018-01-23 15:48:49,566 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-23 15:48:49,566 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-23 15:48:49,785 [INFO ][Thread-0        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-23 15:48:49,785 [INFO ][Thread-0        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:48:51,785 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-23 15:48:56,485 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-23 15:48:56,485 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-23 15:48:56,610 [INFO ][Thread-0        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-23 15:48:56,610 [INFO ][Thread-0        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:49:00,423 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()2
-2018-01-23 15:49:00,454 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-23 15:49:00,454 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
-2018-01-23 15:49:04,908 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-24 16:53:45,719 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-24 16:53:45,719 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-24 16:53:46,251 [INFO ][Thread-0        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-24 16:53:46,313 [INFO ][Thread-0        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-24 16:53:49,220 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-24 16:54:43,096 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-24 16:54:43,096 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-24 16:54:43,174 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-24 16:54:43,174 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-24 16:54:51,440 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.=Петя()81=80
-2018-01-24 16:54:54,519 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-24 17:09:55,485 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-24 17:09:55,485 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-24 17:09:55,563 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-24 17:09:55,563 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-24 17:09:57,423 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-24 17:10:24,063 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-24 17:10:24,063 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-24 17:28:40,553 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-24 17:28:40,609 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-24 17:28:49,115 [ERROR][main            ][               kharkov.sf.Main] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.
-2018-01-24 17:28:49,118 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-24 17:30:57,560 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-24 17:30:57,560 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-24 17:31:00,388 [ERROR][main            ][               kharkov.sf.Main] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.
-2018-01-24 17:31:00,388 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 12:37:23,231 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 12:37:23,247 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 12:37:27,653 [ERROR][main            ][               kharkov.sf.Main] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.
-2018-01-25 12:37:27,653 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:13:42,171 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:13:42,192 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:13:51,530 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
-2018-01-25 17:13:51,560 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:15:16,405 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:15:16,410 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:15:18,319 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
-2018-01-25 17:15:18,321 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:16:10,401 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:16:10,402 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:16:10,594 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:16:10,607 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:16:20,649 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.=Петя()61=600
-2018-01-25 17:16:32,937 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:25:26,690 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:25:26,690 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:25:26,764 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:25:26,764 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:25:34,756 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:25:43,811 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:25:43,811 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:25:43,889 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:25:43,889 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:25:46,506 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:28:11,542 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:28:11,542 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:28:11,620 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:28:11,620 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:28:15,089 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.=Петя()2=222
-2018-01-25 17:28:26,045 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:28:31,419 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:28:31,419 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:28:31,498 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:28:31,498 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:28:38,389 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:28:42,988 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:28:42,988 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:28:43,066 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:28:43,066 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:28:46,160 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.=Петя()1=3434534
-2018-01-25 17:28:48,566 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-01-25 17:28:52,593 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-01-25 17:28:52,593 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-01-25 17:28:52,687 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-01-25 17:28:52,687 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-01-25 17:28:56,518 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.=Петя()2=4564545
-2018-01-25 17:29:29,546 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-05 12:12:41,897 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-05 12:12:41,897 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-05 12:12:42,147 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-05 12:12:42,256 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-05 12:12:50,616 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.=Петя()5=545645646
+2018-02-05 12:12:55,210 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()5
+2018-02-05 12:12:55,273 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-05 12:12:55,273 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2018-02-05 12:13:00,305 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-07 15:57:11,161 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 15:57:11,192 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 15:57:11,473 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-07 15:57:11,489 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 15:57:13,957 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-07 15:59:47,061 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 15:59:47,061 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 15:59:47,218 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-07 15:59:47,218 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 15:59:49,437 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-07 16:47:44,886 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 16:47:44,952 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 16:47:48,063 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-07 16:47:48,150 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 16:48:19,519 [ERROR][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
+Неправильное имя и пароль пользователя.=Петя()999999=9999999
+2018-02-07 16:48:28,115 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()999999
+2018-02-07 16:48:28,274 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 16:48:28,275 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2018-02-07 16:48:32,278 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-07 16:48:37,336 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 16:48:37,337 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 16:48:38,476 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-07 16:48:38,477 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 16:49:14,023 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-07 16:49:21,769 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 16:49:21,770 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 16:49:21,845 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-07 16:49:21,845 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 16:51:08,648 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-07 17:22:58,231 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 17:22:58,263 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 17:22:58,278 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-07 17:26:55,305 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 17:26:55,305 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 17:26:55,305 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-07 17:33:27,556 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-07 17:33:27,556 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-07 17:33:27,556 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-07 17:33:27,978 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-07 17:33:27,994 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-07 17:33:43,047 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

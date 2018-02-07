@@ -56,7 +56,7 @@ public class SFStart extends Thread {
 
     }
 
-    public SFStart(SF caller,ArrayList<User> users, User authorizedUser) {
+    public SFStart(SF caller, ArrayList<User> users, User authorizedUser) {
         setUsers(users);
         setAuthorizedUser(authorizedUser);
         parrent = caller;
@@ -68,7 +68,6 @@ public class SFStart extends Thread {
     public void run() {
         UserInputAndPassword(getUsers(), getAuthorizedUser());
         synchronized (parrent) {
-
             parrent.notify();
         }
     }
