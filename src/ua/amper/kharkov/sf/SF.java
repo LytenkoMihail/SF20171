@@ -61,15 +61,17 @@ public class SF {
         LoadSqlExecuteUpdateFromFile loadSqlExecuteUpdateFromFile = new LoadSqlExecuteUpdateFromFile(SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS);
         if (loadSqlExecuteUpdateFromFile.isLoadSqlExecuteUpdateFromFil() == true) {
             System.out.println(loadSqlExecuteUpdateFromFile.getStringSqlExecute());
+            connectingDataBase = true;
         } else {
             System.out.println(SF_SQL_FILE_NOT_OPEN);
+
         }
         final int minCapacity = 1_000;
         users.ensureCapacity(minCapacity);
         for (Integer i = 0; i < minCapacity; i++) {
             users.add(new User(i, "Петя()" + i, Integer.toString(i)));
         }
-        connectingDataBase = true;
+
     }
 
     public SF() throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {

@@ -50,3 +50,67 @@
 2018-02-07 17:33:27,978 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
 2018-02-07 17:33:27,994 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
 2018-02-07 17:33:43,047 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:30:36,188 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:30:36,222 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:30:36,243 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:30:36,655 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:30:36,666 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:30:40,349 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:31:08,495 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:31:08,496 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:31:08,497 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/000select from users.sql
+2018-02-08 16:31:08,498 [ERROR][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Ошибка открытия файла с SQL запросом!Sql/000select from users.sql
+2018-02-08 16:31:08,634 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:31:08,634 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:31:18,780 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:32:59,249 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:32:59,249 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:32:59,249 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/000select from users.sql
+2018-02-08 16:32:59,249 [ERROR][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Ошибка открытия файла с SQL запросом!Sql/000select from users.sql
+2018-02-08 16:33:10,925 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-08 16:33:10,928 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:33:20,424 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:33:20,424 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:33:20,424 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:33:20,518 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:33:20,518 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:33:26,783 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()2
+2018-02-08 16:33:26,840 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:33:26,841 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2018-02-08 16:33:41,761 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:39:17,979 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:39:17,979 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:39:17,979 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:39:18,057 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:39:18,057 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:39:20,533 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:40:38,613 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:40:38,613 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:40:38,613 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:40:38,693 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:40:38,693 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:40:41,277 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:46:02,607 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:46:02,607 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:46:02,607 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:46:02,685 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:46:02,685 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:46:04,623 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:49:07,940 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:49:07,940 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:49:07,956 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:49:08,018 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:49:08,018 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:49:09,190 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 16:57:38,918 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 16:57:38,919 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 16:57:38,920 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 16:57:38,995 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 16:57:38,996 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 16:57:40,774 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-08 17:10:35,934 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-08 17:10:35,950 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-08 17:10:35,981 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-08 17:10:36,200 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-08 17:10:36,216 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-08 17:10:37,776 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

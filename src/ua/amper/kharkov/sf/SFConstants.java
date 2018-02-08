@@ -29,6 +29,7 @@ public final class SFConstants {
     public static final String MSG_USER_NAME_PASSWORD_ERROR = "Идентификая пользователя не выполнена.\n"+"Неправильное имя и пароль пользователя.";
 
     public static final String MSG_DB_CONNECTINGDATABASE_ERROR = "База данных не обнаружена.";
+    public static final String MSG_DB_DISCONNECTINGDATABASE_ERROR = "База данных не отключена.";
 
 
     public static final String SF_RESOURCES_FILE_ICON_PROGRAMM = "Images/invoice_document_file.png";
@@ -39,7 +40,8 @@ public final class SFConstants {
     public static final String SF_PROPERTIES_FILE_NOT__FIND = "Файл с настройками не найден!";
 
     public static final String SF_SQL_FILE_NOT_OPEN = "Ошибка открытия файла с SQL запросом!";
-    public static final String SF_SQL_FILE_NOT__FIND = "Файл с SQL запросом не найден!";
+    public static final String SF_SQL_EXEC_SQL = "Ошибка выполнения SQL запроса!";
+
 
     public static final String ECHO_CHAR_USER_PASSWORD= "*";
 
