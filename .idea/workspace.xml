@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sf.log" afterPath="$PROJECT_DIR$/sf.log" />
-      <change beforePath="$PROJECT_DIR$/sf_full.log" afterPath="$PROJECT_DIR$/sf_full.log" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1098,7 +1092,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518017664865</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Изменение архитектуры приложения (класс Маин).">
+      <created>1518102746376</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1518102746376</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
