@@ -33,18 +33,19 @@ public class SFRun extends Thread {
 
     private void mainWindow()  {
         System.out.println(authorizedUser.toString());
-        OptionsWindow WOMainWindow = new OptionsWindow();
-        WOMainWindow.setX(0);
-        WOMainWindow.setY(0);
-        WOMainWindow.setWidth(utilScreen.getWidth());
-        WOMainWindow.setHeight(utilScreen.getHeight());
-        WOMainWindow.setTitle(SF_VERSION + " [" + authorizedUser.getName() + "]");
-        WOMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
+//        String titleString = SF_VERSION + " [" + authorizedUser.getName() + "]";
+        OptionsWindow optionsMainWindow = new OptionsWindow(0,0,utilScreen.getWidth(),utilScreen.getHeight(),SF_VERSION + " [" + authorizedUser.getName() + "]",SF_RESOURCES_FILE_ICON_PROGRAMM);
+//        optionsMainWindow.setX(0);
+//        optionsMainWindow.setY(0);
+//        optionsMainWindow.setWidth(utilScreen.getWidth());
+//        optionsMainWindow.setHeight(utilScreen.getHeight());
+//        optionsMainWindow.setTitle(SF_VERSION + " [" + authorizedUser.getName() + "]");
+//        optionsMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
 
         try {
             SwingUtilities.invokeAndWait(() ->
             {
-                mainwin = new MainWindow(WOMainWindow);
+                mainwin = new MainWindow(optionsMainWindow);
                 mainwin.setVisible(true);
             });
         } catch (InterruptedException e) {

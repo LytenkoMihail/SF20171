@@ -41,7 +41,8 @@ private void exitFromProgram() {
     });
 }
     public MainWindow(OptionsWindow WO) {
-        super(WO.getFileImageIconName(), WO.getX(), WO.getY(), WO.getWidth(), WO.getHeight());
+//        super(WO.getFileImageIconName(), WO.getX(), WO.getY(), WO.getWidth(), WO.getHeight());
+        super(WO.getFileImageIconName());
         LOGGER.info(SFConstants.LOGGER_MAINWINDOW);
         setTitle(WO.getTitle());
         setExtendedState(Windows.MAXIMIZED_BOTH);

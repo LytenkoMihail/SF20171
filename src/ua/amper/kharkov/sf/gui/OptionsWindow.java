@@ -60,6 +60,21 @@ public class OptionsWindow {
     }
 
     public OptionsWindow() {
+        this.X = 0;
+        this.Y = 0;
+        this.Height = 0;
+        this.Width = 0;
+        this.Title = "";
+        this.FileImageIconName = "";
+    }
+
+    public OptionsWindow(int X,int Y,int Width,int Height,String Title,String FileImageIconName) {
+        this.X = X;
+        this.Y = Y;
+        this.Width = Width;
+        this.Height = Height;
+        this.Title = Title;
+        this.FileImageIconName = FileImageIconName;
 
     }
 }
