@@ -1,50 +1,49 @@
-2018-02-19 09:45:15,473 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-19 09:45:15,489 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-19 09:45:15,613 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-19 09:45:16,090 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-02-19 09:45:16,103 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 09:45:36,368 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-19 09:45:58,476 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-19 09:45:58,477 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-19 09:45:58,478 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-19 09:45:58,510 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-02-19 09:45:58,511 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 09:46:01,530 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-19 16:16:49,216 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-19 16:16:49,247 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-19 16:16:49,326 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-19 16:16:49,544 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-02-19 16:16:49,544 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:16:57,889 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()0
-2018-02-19 16:16:57,967 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:16:57,967 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2018-02-19 16:17:02,858 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-19 16:20:24,092 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-19 16:20:24,092 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-19 16:20:24,092 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-19 16:20:24,123 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-02-19 16:20:24,123 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:20:29,311 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()0
-2018-02-19 16:20:29,342 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:20:29,342 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2018-02-19 16:20:33,920 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-19 16:26:53,020 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-19 16:26:53,020 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-19 16:26:53,035 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-19 16:26:53,082 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-02-19 16:26:53,082 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:28:09,963 [ERROR][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Идентификая пользователя не выполнена.
-Неправильное имя и пароль пользователя.=Петя()0=000
-2018-02-19 16:28:12,416 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()0
-2018-02-19 16:28:12,432 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:28:12,432 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2018-02-19 16:28:15,963 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-19 16:48:14,500 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-19 16:48:14,516 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-19 16:48:14,563 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-19 16:48:14,688 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
-2018-02-19 16:48:14,688 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:48:19,025 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()2
-2018-02-19 16:48:19,056 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
-2018-02-19 16:48:19,056 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
-2018-02-19 16:48:21,466 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 13:56:11,741 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 13:56:11,757 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 13:56:11,773 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-20 13:56:11,913 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-20 13:56:11,913 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-20 13:56:52,244 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Петя()99999
+2018-02-20 13:56:52,260 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-20 13:56:52,260 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
+2018-02-20 13:57:04,729 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 16:56:35,248 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 16:56:35,280 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 16:56:35,295 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-20 16:56:35,639 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-20 16:56:35,655 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-20 16:56:39,208 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 16:56:57,647 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 16:56:57,648 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 16:56:57,650 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-20 16:56:57,749 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-20 16:56:57,749 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-20 16:57:11,569 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 16:58:42,874 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 16:58:42,874 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 16:58:42,874 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql00000
+2018-02-20 16:58:42,874 [ERROR][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Ошибка открытия файла с SQL запросом!Sql/select from users.sql00000
+2018-02-20 16:58:53,088 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-02-20 16:58:53,088 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 17:00:02,745 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 17:00:02,745 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 17:00:02,745 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-20 17:00:03,042 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-02-20 17:00:03,042 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-02-20 17:00:06,761 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 17:21:02,511 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 17:21:02,542 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 17:21:05,980 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-02-20 17:21:05,980 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 17:23:03,772 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 17:23:03,772 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 17:23:06,085 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-02-20 17:23:06,085 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 17:28:10,286 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 17:28:10,286 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 17:28:12,974 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-02-20 17:28:12,974 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-20 17:30:11,574 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-20 17:30:11,574 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-20 17:30:13,090 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.
+2018-02-20 17:30:13,090 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

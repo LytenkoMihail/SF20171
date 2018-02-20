@@ -3,7 +3,57 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserAbstract.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindowFrame.java">
           <value>
             <set />
           </value>
@@ -19,6 +69,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/Windows.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java">
           <value>
             <set />
           </value>

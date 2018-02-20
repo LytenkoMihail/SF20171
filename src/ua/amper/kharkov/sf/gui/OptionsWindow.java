@@ -68,7 +68,7 @@ public class OptionsWindow {
         this.FileImageIconName = "";
     }
 
-    public OptionsWindow(int X,int Y,int Width,int Height,String Title,String FileImageIconName) {
+    public OptionsWindow(int X, int Y, int Width, int Height, String Title, String FileImageIconName) {
         this.X = X;
         this.Y = Y;
         this.Width = Width;

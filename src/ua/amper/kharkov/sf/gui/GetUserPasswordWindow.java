@@ -133,8 +133,6 @@ public class GetUserPasswordWindow extends JDialog {
         box2.add(passwordLabel);
         box2.add(Box.createHorizontalStrut(6));
         box2.add(passwordField);
-
-
 // Настраиваем третью горизонтальную панель (с кнопками)
         Box box3 = Box.createHorizontalBox();
         ok = new JButton(SFConstants.MSG_BUTTON_YES);

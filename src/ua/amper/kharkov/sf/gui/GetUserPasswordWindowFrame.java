@@ -11,7 +11,8 @@ import javax.swing.border.EmptyBorder;
  */
 public class GetUserPasswordWindowFrame extends Windows {
     private static final Logger LOGGER = Logger.getLogger(GetUserPasswordWindowFrame.class);
-    public boolean WER;
+
+
     public GetUserPasswordWindowFrame(OptionsWindow WOGUPW) {
 
         super(WOGUPW.getFileImageIconName(), WOGUPW.getX(), WOGUPW.getX(), WOGUPW.getWidth(), WOGUPW.getHeight());
@@ -24,15 +25,12 @@ public class GetUserPasswordWindowFrame extends Windows {
         JPasswordField passwordField;
         JComboBox combo = new JComboBox(elements);
         combo.setSelectedIndex(-1);
-
-
 // Настраиваем первую горизонтальную панель (для ввода логина)
         Box box1 = Box.createHorizontalBox();
         JLabel loginLabel = new JLabel(SFConstants.MSG_USER_NAME);
         box1.add(loginLabel);
         box1.add(Box.createHorizontalStrut(6));
         box1.add(combo);
-
 // Настраиваем вторую горизонтальную панель (для ввода пароля)
         Box box2 = Box.createHorizontalBox();
         JLabel passwordLabel = new JLabel(SFConstants.MSG_USER_PASSWORD);
@@ -50,9 +48,7 @@ public class GetUserPasswordWindowFrame extends Windows {
         box3.add(Box.createHorizontalStrut(12));
         box3.add(cancel);
 // Уточняем размеры компонентов
-
         passwordLabel.setPreferredSize(loginLabel.getPreferredSize());
-
 // Размещаем три горизонтальные панели на одной вертикальной
         Box mainBox = Box.createVerticalBox();
         mainBox.setBorder(new EmptyBorder(12, 12, 12, 12));
@@ -62,11 +58,6 @@ public class GetUserPasswordWindowFrame extends Windows {
         mainBox.add(Box.createVerticalStrut(17));
         mainBox.add(box3);
         setContentPane(mainBox);
-
-//блокировка закрытия окна
-//        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
-//        setAlwaysOnTop(true); // оставляем всегда на верху
-
         pack();
         setResizable(false);
         setLocationRelativeTo(null);

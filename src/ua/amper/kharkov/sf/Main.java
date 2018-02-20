@@ -10,6 +10,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
 import static ua.amper.kharkov.sf.SFConstants.MSG_DB_CONNECTINGDATABASE_ERROR;
+import static ua.amper.kharkov.sf.SFConstants.SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS;
 import static ua.amper.kharkov.sf.SFConstants.SF_VERSION;
 
 
@@ -24,15 +25,21 @@ public class Main {
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
+        String stringSqlExecute;
 
         SF sF = new SF();
         DialogWindows dialogWindows = new DialogWindows(SF_VERSION);
         if (args.length == 0) {
             sF.connectingToDataBase(users);
             if (sF.isConnectingDataBase() == true) {
-                sF.start(users, authorizedUser);
-                if (sF.isPasswordEnteredCorrectly() == true) {
-                    sF.run(authorizedUser);
+                sF.loadSqlExecuteFromFile(SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS);
+                if (sF.isLoadSqlExecuteFromFile() == true) {
+                    stringSqlExecute = sF.loadStringSqlExecuteFromFile();
+
+                    sF.start(users, authorizedUser);
+                    if (sF.isPasswordEnteredCorrectly() == true) {
+                        sF.run(authorizedUser);
+                    }
                 }
             } else {
                 dialogWindows.DialogMessageError(MSG_DB_CONNECTINGDATABASE_ERROR);

@@ -25,23 +25,23 @@ public class MainWindow extends Windows {
 
     private boolean runningTheProgram;
 
-private void exitFromProgram() {
-    addWindowListener(new WindowAdapter() {
-        @Override
-        public void windowClosing(WindowEvent e) {
-            //потверждение выхода из программы
-            int res = JOptionPane.showConfirmDialog(e.getWindow(), MSG_EXIT_THE_PROGRAM, SFConstants.SF_VERSION, JOptionPane.YES_OPTION);
-            if (res == JOptionPane.YES_OPTION) {
-                e.getWindow().setVisible(false);
-                e.getWindow().dispose();
-                setRunningTheProgram(false);
-                return;
+    private void exitFromProgram() {
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                //потверждение выхода из программы
+                int res = JOptionPane.showConfirmDialog(e.getWindow(), MSG_EXIT_THE_PROGRAM, SFConstants.SF_VERSION, JOptionPane.YES_OPTION);
+                if (res == JOptionPane.YES_OPTION) {
+                    e.getWindow().setVisible(false);
+                    e.getWindow().dispose();
+                    setRunningTheProgram(false);
+                    return;
+                }
             }
-        }
-    });
-}
+        });
+    }
+
     public MainWindow(OptionsWindow WO) {
-//        super(WO.getFileImageIconName(), WO.getX(), WO.getY(), WO.getWidth(), WO.getHeight());
         super(WO.getFileImageIconName());
         LOGGER.info(SFConstants.LOGGER_MAINWINDOW);
         setTitle(WO.getTitle());

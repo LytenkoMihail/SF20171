@@ -19,7 +19,6 @@ public class LoadImagesFromFile {
     private void setUploadedImage(Image uploadedImage) {
         UploadedImage = uploadedImage;
     }
-
     //    проверка загружен ли файл с картинкой
     public boolean isUploadedImage() {
         if ((getUploadedImage() == null)) {
@@ -33,10 +32,9 @@ public class LoadImagesFromFile {
         LOGGER.info(fileImageIconName);
         try {
             setUploadedImage(new ImageIcon(getClass().getClassLoader().getResource(fileImageIconName)).getImage());
-
         } catch (Exception e) {
             setUploadedImage(null);
-            LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE+fileImageIconName);
+            LOGGER.error(SFConstants.LOGGER_ERROR_NOT_OPEN_FILE + fileImageIconName);
         }
     }
 }

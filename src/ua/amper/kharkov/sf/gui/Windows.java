@@ -14,6 +14,7 @@ import java.io.File;
 public class Windows extends JFrame {
 
     private static final Logger LOGGER = Logger.getLogger(Windows.class);
+
     protected void frameInit(String FileImageIconName) {
         LoadImagesFromFile loadImagesFromFile = new LoadImagesFromFile(FileImageIconName);
         if (loadImagesFromFile.isUploadedImage()) {
@@ -21,12 +22,14 @@ public class Windows extends JFrame {
         }
 
     }
+
     public Windows(String FileImageIconName, int X, int Y, int Width, int Height) {
         super();
         frameInit(FileImageIconName);
         setBounds(X, Y, Width, Height);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
     }
+
     public Windows(String FileImageIconName) {
         super();
         frameInit(FileImageIconName);

@@ -33,15 +33,7 @@ public class SFRun extends Thread {
 
     private void mainWindow()  {
         System.out.println(authorizedUser.toString());
-//        String titleString = SF_VERSION + " [" + authorizedUser.getName() + "]";
         OptionsWindow optionsMainWindow = new OptionsWindow(0,0,utilScreen.getWidth(),utilScreen.getHeight(),SF_VERSION + " [" + authorizedUser.getName() + "]",SF_RESOURCES_FILE_ICON_PROGRAMM);
-//        optionsMainWindow.setX(0);
-//        optionsMainWindow.setY(0);
-//        optionsMainWindow.setWidth(utilScreen.getWidth());
-//        optionsMainWindow.setHeight(utilScreen.getHeight());
-//        optionsMainWindow.setTitle(SF_VERSION + " [" + authorizedUser.getName() + "]");
-//        optionsMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
-
         try {
             SwingUtilities.invokeAndWait(() ->
             {
@@ -60,10 +52,9 @@ public class SFRun extends Thread {
     public void run() {
         mainWindow();
         while(mainwin.isRunningTheProgram()){
-            // Код
         }
         synchronized (parrent) {
-            System.out.println("synchronized");
+//            System.out.println("synchronized");
             parrent.notify();
         }
     }

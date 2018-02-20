@@ -19,6 +19,17 @@ public class SF {
     private static final Logger LOGGER = Logger.getLogger(SF.class);
     private boolean connectingDataBase;
 
+    public boolean isLoadSqlExecuteFromFile() {
+        return loadSqlExecuteFromFile;
+    }
+
+    private void setLoadSqlExecuteFromFile(boolean loadSqlExecuteFromFile) {
+        this.loadSqlExecuteFromFile = loadSqlExecuteFromFile;
+    }
+
+    private boolean loadSqlExecuteFromFile;
+    private String stringSqlExecuteFromFile;
+
     public boolean isConnectingDataBase() {
         return connectingDataBase;
     }
@@ -32,7 +43,24 @@ public class SF {
     public boolean isPasswordEnteredCorrectly() {
         return PasswordEnteredCorrectly;
     }
+    public String loadStringSqlExecuteFromFile() {
+        return stringSqlExecuteFromFile;
+    }
+    public void loadSqlExecuteFromFile(String fileNameSqlExecuteUpdate) throws IOException  {
+        LoadSqlExecuteUpdateFromFile loadSqlExecuteUpdateFromFile = new LoadSqlExecuteUpdateFromFile(fileNameSqlExecuteUpdate );
+        if (loadSqlExecuteUpdateFromFile.isLoadSqlExecuteUpdateFromFile() == true) {
+            stringSqlExecuteFromFile = loadSqlExecuteUpdateFromFile.getStringSqlExecute();
+            System.out.println(stringSqlExecuteFromFile);
+            setLoadSqlExecuteFromFile(true);
+            return;
+        } else {
+            System.out.println(SF_SQL_FILE_NOT_OPEN);
+            setLoadSqlExecuteFromFile(false);
+            return;
 
+        }
+
+    }
     public void run(User authorizedUser) throws InterruptedException, InvocationTargetException {
         SFRun sfRun = new SFRun(this, authorizedUser);
         sfRun.start();
@@ -57,16 +85,8 @@ public class SF {
         mainStop.stop();
     }
 
-    public void connectingToDataBase(ArrayList<User> users) throws IOException {
-        LoadSqlExecuteUpdateFromFile loadSqlExecuteUpdateFromFile = new LoadSqlExecuteUpdateFromFile(SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS);
-        if (loadSqlExecuteUpdateFromFile.isLoadSqlExecuteUpdateFromFil() == true) {
-            System.out.println(loadSqlExecuteUpdateFromFile.getStringSqlExecute());
-            connectingDataBase = true;
-        } else {
-            System.out.println(SF_SQL_FILE_NOT_OPEN);
-
-        }
-        final int minCapacity = 1_000;
+    public void connectingToDataBase(ArrayList<User> users){
+        final int minCapacity = 1_000_00;
         users.ensureCapacity(minCapacity);
         for (Integer i = 0; i < minCapacity; i++) {
             users.add(new User(i, "Петя()" + i, Integer.toString(i)));
@@ -77,11 +97,12 @@ public class SF {
     public SF() throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
         /* Пусть наш GUI будет в стиле ОС */
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-
         LOGGER.info(SF_VERSION);
         LOGGER.info(LOGGER_START);
         connectingDataBase = false;
         PasswordEnteredCorrectly = false;
+        loadSqlExecuteFromFile = false;
+        stringSqlExecuteFromFile = "";
         System.out.println(LOGGER_START);
     }
 }
