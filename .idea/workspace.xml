@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/sf.log" afterPath="$PROJECT_DIR$/sf.log" />
+      <change beforePath="$PROJECT_DIR$/sf_full.log" afterPath="$PROJECT_DIR$/sf_full.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1159,7 +1161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519746315077</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Развитие программы Счет фактура.">
+      <created>1519746330442</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746330442</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
