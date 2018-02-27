@@ -222,3 +222,213 @@
 2018-02-20 17:30:11,574 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 2018-02-20 17:30:13,090 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
 2018-02-20 17:30:13,090 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-21 11:07:28,670 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-21 11:07:28,686 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-21 11:07:31,170 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-21 11:07:31,201 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-21 11:18:22,141 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql000
+2018-02-21 11:18:22,141 [ERROR][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Ошибка открытия файла с SQL запросом!Sql/select from users.sql000
+2018-02-21 11:18:26,907 [ERROR][main            ][               kharkov.sf.Main] - Ошибка открытия файла с SQL запросом!
+2018-02-21 11:46:08,696 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql000
+2018-02-21 11:46:08,696 [ERROR][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Ошибка открытия файла с SQL запросом!Sql/select from users.sql000
+2018-02-21 11:46:12,817 [ERROR][main            ][               kharkov.sf.Main] - Ошибка открытия файла с SQL запросом!
+2018-02-21 11:46:18,384 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-21 11:46:21,087 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-21 11:46:21,087 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-21 11:46:22,509 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-21 11:46:22,525 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-21 17:24:38,884 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-21 17:24:42,150 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-21 17:24:42,150 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-21 17:24:45,337 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-21 17:24:45,384 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-21 17:26:12,769 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-21 17:26:15,035 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-21 17:26:15,035 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-21 17:26:17,691 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-21 17:26:17,707 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 09:59:54,206 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 10:00:00,232 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-22 10:00:00,232 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-22 10:00:03,466 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 10:00:03,492 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 10:00:39,590 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 10:00:41,224 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-22 10:00:41,225 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-22 10:00:45,643 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 10:00:45,646 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 10:24:09,410 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 10:24:12,113 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-22 10:24:12,113 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-22 10:24:13,160 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 10:24:13,176 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 15:54:28,009 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 15:54:31,432 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-22 15:54:31,432 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-22 15:54:39,182 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 15:54:39,198 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 16:02:25,164 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 16:02:27,039 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-22 16:02:27,055 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-22 16:02:38,212 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 16:02:38,212 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 16:03:36,246 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 16:03:37,996 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-22 16:03:37,996 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-22 16:03:44,496 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 16:03:44,496 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-22 16:04:01,251 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 16:04:10,251 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 16:09:32,296 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 16:09:45,000 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-22 16:55:17,171 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-22 16:55:23,921 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-23 15:18:48,439 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 15:20:04,719 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-23 15:20:04,720 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-23 15:20:09,004 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-23 15:20:09,047 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-23 15:24:53,542 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 15:24:56,645 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-23 15:24:56,646 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-23 15:24:56,662 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-23 15:25:38,826 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 15:25:54,071 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-23 15:26:10,555 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 15:27:07,821 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-23 15:27:07,822 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-23 15:27:07,830 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-23 15:39:34,252 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 15:39:36,787 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-23 15:39:36,787 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-23 15:39:36,796 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-23 16:59:55,067 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 17:00:36,525 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-23 17:00:45,245 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-23 17:00:45,245 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-23 17:00:45,276 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-23 17:03:08,661 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-23 17:03:08,661 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-23 17:03:08,661 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-26 16:35:45,355 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-26 16:35:51,074 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-26 16:35:51,074 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-26 16:35:51,090 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-26 16:37:01,984 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-26 16:37:03,984 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-26 16:37:03,984 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-26 16:37:03,984 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-26 16:37:17,078 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-26 16:37:18,484 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-26 16:37:18,484 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-26 16:37:18,484 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-26 16:38:15,275 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-26 16:38:28,251 [ERROR][main            ][               kharkov.sf.Main] - База данных не обнаружена.
+2018-02-27 15:15:44,419 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:15:49,231 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:15:49,231 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:15:49,262 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:17:28,244 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:17:29,704 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:17:29,704 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:17:29,704 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:32:57,374 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:32:59,498 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:32:59,499 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:32:59,507 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:33:43,165 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:33:44,461 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:33:44,462 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:33:44,462 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:34:06,852 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:34:08,108 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:34:08,109 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:34:08,109 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:35:54,612 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:35:56,524 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:35:56,524 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:35:56,525 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:37:54,667 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:37:56,263 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:37:56,263 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:37:56,264 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:41:42,137 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:42:41,821 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:42:43,065 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:42:43,065 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:42:43,066 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 15:46:07,246 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:46:38,267 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 15:46:39,496 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 15:46:39,497 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 15:46:39,498 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 16:02:50,138 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 16:02:51,839 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 16:02:51,839 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 16:02:51,854 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 16:03:25,741 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 16:03:27,072 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 16:03:27,072 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 16:03:27,073 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 16:03:47,076 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 16:03:55,372 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 16:03:58,898 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 16:03:58,898 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 16:03:58,899 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 16:11:22,739 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 16:11:22,739 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 16:11:22,740 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 16:30:31,941 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 16:30:34,167 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 16:30:34,168 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 16:30:34,183 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:11:21,714 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:11:26,249 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:11:26,249 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:11:26,358 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:15:30,964 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:15:48,472 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:15:50,535 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:15:50,535 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:15:50,581 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:21:03,286 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:21:04,646 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:21:04,646 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:21:04,646 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:21:20,193 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:21:21,396 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:21:21,396 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:21:21,396 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:21:56,164 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:21:57,711 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:21:57,711 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:21:57,711 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:24:29,355 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:24:29,355 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:24:29,355 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:25:28,506 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:25:30,522 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:25:30,522 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:25:30,522 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:29:21,330 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:32:39,900 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:32:39,900 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:32:39,900 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:38:12,564 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:38:13,941 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:38:13,941 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:38:13,942 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:39:03,829 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:39:05,092 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:39:05,092 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:39:05,093 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:40:38,710 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:40:42,501 [ERROR][main            ][               kharkov.sf.Main] - Ошибка выполнения SQL запроса!
+2018-02-27 17:41:24,037 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:41:25,524 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:41:25,525 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:41:25,525 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-27 17:44:12,845 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-27 17:44:14,280 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-27 17:44:14,280 [INFO ][main            ][                 kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-27 17:44:14,281 [INFO ][main            ][             kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

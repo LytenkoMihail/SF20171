@@ -12,6 +12,16 @@ public class LoadSqlExecuteUpdateFromFile {
     private boolean isLoadSqlExecuteUpdateFromFile;
     private InputStream fileInputStream;
     private String stringSqlExecute;
+    private String fileNameSqlExecuteUpdate;
+
+    private String getFileNameSqlExecuteUpdate() {
+        return fileNameSqlExecuteUpdate;
+    }
+
+    private void setFileNameSqlExecuteUpdate(String fileNameSqlExecuteUpdate) {
+        this.fileNameSqlExecuteUpdate = fileNameSqlExecuteUpdate;
+    }
+
 
     public boolean isLoadSqlExecuteUpdateFromFile() {
         return isLoadSqlExecuteUpdateFromFile;
@@ -29,17 +39,28 @@ public class LoadSqlExecuteUpdateFromFile {
         this.stringSqlExecute = stringSqlExecute;
     }
 
-
-    public LoadSqlExecuteUpdateFromFile(String fileNameSqlExecuteUpdate) throws IOException {
+    private void openAndLoadSqlExecuteUpdateFromFil(String fileNameSql) throws IOException {
         setLoadSqlExecuteUpdateFromFile(false);
-        LOGGER.info(fileNameSqlExecuteUpdate);
-        fileInputStream = getClass().getClassLoader().getResourceAsStream(fileNameSqlExecuteUpdate);
-        if (fileInputStream != null)
-        {
-            loadSqlExecuteToString(fileInputStream, fileNameSqlExecuteUpdate);
+        LOGGER.info(getFileNameSqlExecuteUpdate());
+        fileInputStream = getClass().getClassLoader().getResourceAsStream(getFileNameSqlExecuteUpdate());
+        if (fileInputStream != null) {
+            loadSqlExecuteToString(fileInputStream, getFileNameSqlExecuteUpdate());
+            setLoadSqlExecuteUpdateFromFile(true);
         } else {
-            LOGGER.error(SF_SQL_FILE_NOT_OPEN + fileNameSqlExecuteUpdate);
+            LOGGER.error(SF_SQL_FILE_NOT_OPEN + getFileNameSqlExecuteUpdate());
         }
+
+    }
+
+    public LoadSqlExecuteUpdateFromFile(String fileNameSql) throws IOException {
+
+        setFileNameSqlExecuteUpdate(fileNameSql);
+        openAndLoadSqlExecuteUpdateFromFil(fileNameSql);
+    }
+
+    public LoadSqlExecuteUpdateFromFile() throws IOException {
+        openAndLoadSqlExecuteUpdateFromFil(getFileNameSqlExecuteUpdate());
+
     }
 
     private void loadSqlExecuteToString(InputStream fileInputStream, String fileNameSqlExecuteUpdate) throws IOException {
@@ -48,7 +69,7 @@ public class LoadSqlExecuteUpdateFromFile {
             fileInputStream.read(str);
             String text = new String(str);
             setStringSqlExecute(text);
-            setLoadSqlExecuteUpdateFromFile(true);
+
         } catch (IOException e) {
             LOGGER.error(SF_SQL_FILE_NOT_OPEN + fileNameSqlExecuteUpdate);
 

@@ -33,7 +33,15 @@ public class SFRun extends Thread {
 
     private void mainWindow()  {
         System.out.println(authorizedUser.toString());
-        OptionsWindow optionsMainWindow = new OptionsWindow(0,0,utilScreen.getWidth(),utilScreen.getHeight(),SF_VERSION + " [" + authorizedUser.getName() + "]",SF_RESOURCES_FILE_ICON_PROGRAMM);
+//        OptionsWindow optionsMainWindow = new OptionsWindow(0,0,utilScreen.getWidth(),utilScreen.getHeight(),SF_VERSION + " [" + authorizedUser.getName() + "]",SF_RESOURCES_FILE_ICON_PROGRAMM);
+        OptionsWindow optionsMainWindow = new OptionsWindow();
+        optionsMainWindow.setX(0);
+        optionsMainWindow.setY(0);
+        optionsMainWindow.setWidth(utilScreen.getWidth());
+        optionsMainWindow.setHeight(utilScreen.getHeight());
+        optionsMainWindow.setTitle(SF_VERSION + " [" + authorizedUser.getName() + "]");
+        optionsMainWindow.setFileImageIconName(SF_RESOURCES_FILE_ICON_PROGRAMM);
+
         try {
             SwingUtilities.invokeAndWait(() ->
             {

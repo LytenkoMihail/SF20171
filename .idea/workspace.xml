@@ -6,23 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="">
+    <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="Развитие программы Счет фактура.">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserDisassembleResults.java" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/sf.log" afterPath="$PROJECT_DIR$/sf.log" />
       <change beforePath="$PROJECT_DIR$/sf_full.log" afterPath="$PROJECT_DIR$/sf_full.log" />
       <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" />
       <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java" />
       <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" />
       <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindow.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindow.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindowFrame.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindowFrame.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/MainWindow.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/MainWindow.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/OptionsWindow.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/OptionsWindow.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/Windows.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/Windows.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java" />
       <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,8 +49,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="406">
+              <caret line="63" column="74" lean-forward="false" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,18 +58,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="969" column="38" lean-forward="false" selection-start-line="969" selection-start-column="28" selection-end-line="969" selection-end-column="38" />
+              <folding>
+                <element signature="e#40171#40172#0" expanded="true" />
+                <element signature="e#40220#40221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state relative-caret-position="1207">
+              <caret line="91" column="29" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDisassembleResults.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserDisassembleResults.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAbstract.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserAbstract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoAbstract.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,47 +134,9 @@
       <file leaf-file-name="SFRun.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="321">
+              <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SFStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SFStop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadSqlExecuteUpdateFromFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="44" column="100" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -132,9 +144,30 @@
       <file leaf-file-name="SFConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="99" lean-forward="false" selection-start-line="36" selection-start-column="99" selection-end-line="36" selection-end-column="99" />
+            <state relative-caret-position="460">
+              <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoMySql.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+              <folding>
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#3121#3122#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +190,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Лютенко М.Г." />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -199,21 +237,22 @@
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile.java" />
         <option value="$PROJECT_DIR$/resources/Sql/select from users.sql" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStart.java" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindow.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindowFrame.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/OptionsWindow.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/Windows.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserAbstract.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserDisassembleResults.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" />
       </list>
     </option>
   </component>
@@ -293,30 +332,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SF2017-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SF2017-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SF2017-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SF2017-1" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SF2017-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SF2017-1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SF2017-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SF2017-1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SF2017-1" type="b2602c69:ProjectViewProjectNode" />
@@ -343,19 +367,11 @@
               <item name="sf" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SF2017-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SF2017-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sf" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1130,7 +1146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519051725161</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Изменение архитектуры приложения (класс Маин).">
+      <created>1519140677470</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1519140677470</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1146,22 +1169,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567567" sideWeight="0.48714653" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.48714653" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567567" sideWeight="0.51285344" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32567567" sideWeight="0.48714653" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325" sideWeight="0.48714653" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2577121" sideWeight="0.49054053" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29530916" sideWeight="0.49054053" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1181,9 +1204,45 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567567" sideWeight="0.51285344" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3962264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.48714653" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.48714653" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211086" sideWeight="0.49054053" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2937018" sideWeight="0.50945944" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1218,7 +1277,8 @@
     <MESSAGE value="testing" />
     <MESSAGE value="Хранение настроек в property-файлах" />
     <MESSAGE value="Изменение архитектуры приложения (класс Маин)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменение архитектуры приложения (класс Маин)." />
+    <MESSAGE value="Развитие программы Счет фактура." />
+    <option name="LAST_COMMIT_MESSAGE" value="Развитие программы Счет фактура." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1234,10 +1294,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/MainWindowRequestForClosure.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/javax/swing/JPasswordField.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/io/FileInputStream.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/Properties.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1344,13 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Sql/select from users.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1372,43 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#701#702#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#3586#3587#0" expanded="false" />
-            <element signature="e#3614#3615#0" expanded="false" />
-            <element signature="e#3901#3902#0" expanded="false" />
-            <element signature="e#3929#3930#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserSearchPasswordCodeName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/DialogWindows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1421,6 +1433,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,31 +1444,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/OptionsWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/Windows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadImagesFromFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,81 +1467,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserAbstract.java">
+    <entry file="file://$PROJECT_DIR$/resources/Sql/select from users.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#867#868#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.m2/repository/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar!/com/mysql/jdbc/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/OptionsWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/Windows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/sql/ResultSetMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3490">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserSearchPasswordCodeName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFStart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        <state relative-caret-position="-192">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="91" column="29" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserDisassembleResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="969" column="38" lean-forward="false" selection-start-line="969" selection-start-column="28" selection-end-line="969" selection-end-column="38" />
+          <folding>
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="99" lean-forward="false" selection-start-line="36" selection-start-column="99" selection-end-line="36" selection-end-column="99" />
+        <state relative-caret-position="460">
+          <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="63" column="74" lean-forward="false" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="321">
+          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="44" column="100" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="100" />
+        <state relative-caret-position="17">
+          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#3121#3122#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
           </folding>
         </state>
       </provider>

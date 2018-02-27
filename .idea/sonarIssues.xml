@@ -48,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserDisassembleResults.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/ua/amper/kharkov/sf/gui/GetUserPasswordWindow.java">
           <value>
             <set />
