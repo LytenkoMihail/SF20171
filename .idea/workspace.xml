@@ -6,17 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="Развитие программы Счет фактура.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserDisassembleResults.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
+    <list default="true" id="5d9afe43-4403-4ac9-af64-a702987e804a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sf.log" afterPath="$PROJECT_DIR$/sf.log" />
-      <change beforePath="$PROJECT_DIR$/sf_full.log" afterPath="$PROJECT_DIR$/sf_full.log" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadSqlExecuteUpdateFromFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -192,6 +183,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="LytenkoMihail &lt;30859489+lytenkomihail@users.noreply.github.com&gt;" />
         <option value="Лютенко М.Г." />
       </list>
     </option>
@@ -1153,7 +1145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519140677470</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Развитие программы Счет фактура.">
+      <created>1519746281443</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746281443</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
