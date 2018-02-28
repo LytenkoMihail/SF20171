@@ -29,7 +29,7 @@ public abstract class DaoAbstract {
      */
     protected void RegisterDriverManager() {
         try {
-            Class.forName(driver).newInstance();
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
         } catch (InstantiationException e) {
             LOGGER.error(MSG_DB_CONNECTINGDATABASE_ERROR + e.getMessage());
 

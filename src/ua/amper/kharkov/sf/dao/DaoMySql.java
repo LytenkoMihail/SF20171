@@ -104,6 +104,7 @@ public class DaoMySql extends DaoAbstract {
         try {
             connection = (com.mysql.jdbc.Connection) DriverManager.getConnection(url, properties);
         } catch (SQLException e) {
+            System.out.println(e);
             connection = null;
         }
     }

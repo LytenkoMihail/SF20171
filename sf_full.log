@@ -1,112 +1,28 @@
-2018-02-27 15:15:44,419 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:15:49,231 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:15:49,231 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:15:49,262 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:17:28,244 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:17:29,704 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:17:29,704 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:17:29,704 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:32:57,374 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:32:59,498 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:32:59,499 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:32:59,507 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:33:43,165 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:33:44,461 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:33:44,462 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:33:44,462 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:34:06,852 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:34:08,108 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:34:08,109 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:34:08,109 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:35:54,612 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:35:56,524 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:35:56,524 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:35:56,525 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:37:54,667 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:37:56,263 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:37:56,263 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:37:56,264 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:41:42,137 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:42:41,821 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:42:43,065 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:42:43,065 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:42:43,066 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 15:46:07,246 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:46:38,267 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 15:46:39,496 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 15:46:39,497 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 15:46:39,498 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 16:02:50,138 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 16:02:51,839 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 16:02:51,839 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 16:02:51,854 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 16:03:25,741 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 16:03:27,072 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 16:03:27,072 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 16:03:27,073 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 16:03:47,076 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 16:03:55,372 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 16:03:58,898 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 16:03:58,898 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 16:03:58,899 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 16:11:22,739 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 16:11:22,739 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 16:11:22,740 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 16:30:31,941 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 16:30:34,167 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 16:30:34,168 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 16:30:34,183 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:11:21,714 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:11:26,249 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:11:26,249 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:11:26,358 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:15:30,964 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:15:48,472 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:15:50,535 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:15:50,535 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:15:50,581 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:21:03,286 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:21:04,646 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:21:04,646 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:21:04,646 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:21:20,193 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:21:21,396 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:21:21,396 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:21:21,396 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:21:56,164 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:21:57,711 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:21:57,711 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:21:57,711 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:24:29,355 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:24:29,355 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:24:29,355 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:25:28,506 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:25:30,522 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:25:30,522 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:25:30,522 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:29:21,330 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:32:39,900 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:32:39,900 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:32:39,900 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:38:12,564 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:38:13,941 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:38:13,941 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:38:13,942 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:39:03,829 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:39:05,092 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:39:05,092 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:39:05,093 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:40:38,710 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:40:42,501 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - Ошибка выполнения SQL запроса!
-2018-02-27 17:41:24,037 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:41:25,524 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:41:25,525 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:41:25,525 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:44:12,845 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:44:14,280 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:44:14,280 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:44:14,281 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2018-02-27 17:46:04,713 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
-2018-02-27 17:46:06,351 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
-2018-02-27 17:46:06,351 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2018-02-27 17:46:06,352 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 09:50:52,331 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 09:50:54,800 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 09:50:54,800 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 09:50:54,800 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 09:56:42,124 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 09:56:42,468 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 09:56:42,468 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 09:56:42,468 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 10:22:59,997 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 10:23:00,341 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 10:23:00,341 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 10:23:00,341 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 11:05:44,421 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 11:05:45,249 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 11:05:45,249 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 11:05:45,280 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 11:10:52,520 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 11:10:52,863 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 11:10:52,863 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 11:10:52,863 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 11:18:42,117 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 11:18:42,492 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 11:18:42,492 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 11:18:42,492 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 11:59:51,859 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 11:59:52,627 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 11:59:52,628 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 11:59:52,628 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -10,8 +10,7 @@ import ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile;
 import javax.swing.*;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 
 import static javax.management.remote.JMXConnectionNotification.FAILED;
@@ -24,6 +23,7 @@ import static ua.amper.kharkov.sf.SFConstants.*;
 public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class);
+
 
     public static void main(String[] args) throws InvocationTargetException, InterruptedException, ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException, IOException, SQLException {
 
@@ -45,7 +45,7 @@ public class Main {
 
         if (loadSqlExecuteUpdateFromFile.isLoadSqlExecuteUpdateFromFile() == true) {
             stringSqlExecute = loadSqlExecuteUpdateFromFile.getStringSqlExecute();
-            dialogWindows.DialogMessageError(stringSqlExecute);
+
 
         } else ExitingProgramIfErrorOccurs(dialogWindows, SF_SQL_FILE_NOT_OPEN, 0);
         DaoMySql daoMySql = new DaoMySql();
