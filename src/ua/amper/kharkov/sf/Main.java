@@ -29,77 +29,27 @@ public class Main {
 
         ArrayList<User> users = new ArrayList<>();
         User authorizedUser = new User();
-        String stringSqlExecute = "";
-        boolean resultQueryExecution;
-        ResultSet resultSetForUsers;
-        String URL = "jdbc:mysql://localhost:3306/sfbase";
-        String host = "localhost";
-        String database = "sfbase";
-        int port = 3306;
-        String NAMEUSER = "root";
-        String PASSWORD = "root";
-        com.mysql.jdbc.Connection connection = null;
+        boolean inisialisaziz;
+//        String stringSqlExecute = "";
+//        boolean resultQueryExecution;
+//        ResultSet resultSetForUsers;
+//        com.mysql.jdbc.Connection connection = null;
 
-        LoadSqlExecuteUpdateFromFile loadSqlExecuteUpdateFromFile = new LoadSqlExecuteUpdateFromFile(SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS);
         DialogWindows dialogWindows = new DialogWindows(SF_VERSION);
-
-        if (loadSqlExecuteUpdateFromFile.isLoadSqlExecuteUpdateFromFile() == true) {
-            stringSqlExecute = loadSqlExecuteUpdateFromFile.getStringSqlExecute();
-
-
-        } else ExitingProgramIfErrorOccurs(dialogWindows, SF_SQL_FILE_NOT_OPEN, 0);
-        DaoMySql daoMySql = new DaoMySql();
-        daoMySql.setURL(host, database, port);
-        daoMySql.Connect(NAMEUSER, PASSWORD);
-        if (daoMySql.getConnection() != null) {
-            connection = daoMySql.getConnection();
-            resultQueryExecution = daoMySql.execSQLExecution(stringSqlExecute);
-            if (resultQueryExecution == true) {
-                resultSetForUsers = daoMySql.getResultSet();
-                UserDisassembleResults userDisassembleResults = new UserDisassembleResults(resultSetForUsers, users);
-                userDisassembleResults.PrepareListOfUsersFromResults();
-                System.out.println(users.toString());
-                System.out.println("resultQueryExecution=" + resultQueryExecution);
-            } else {
-                ExitingProgramIfErrorOccurs(dialogWindows, SF_SQL_EXEC_NOT_RECORD_TABLE , 0);
-            }
-
-        } else {
-            ExitingProgramIfErrorOccurs(dialogWindows, MSG_DB_CONNECTINGDATABASE_ERROR + "0000000000000", 0);
+        SF sF = new SF(dialogWindows);
+        inisialisaziz=sF.inisilizasia(users);
+        System.out.println(inisialisaziz);
+        if (inisialisaziz==true) {
+            sF.start(users,authorizedUser);
         }
-
-        SF sF = new SF();
-
-//        if(args.length==0){
-//                sF.connectingToDataBase(users);
-//                if(sF.isConnectingDataBase()==true){
-//                sF.loadSqlExecuteFromFile(SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS);
-//                if(sF.isLoadSqlExecuteFromFile()==true){
-//                stringSqlExecute=sF.loadStringSqlExecuteFromFile();
-//
-//                sF.start(users,authorizedUser);
-//                if(sF.isPasswordEnteredCorrectly()==true){
-//                sF.run(authorizedUser);
-//                }
-//                }
-//                }else{
-//                dialogWindows.DialogMessageError(MSG_DB_CONNECTINGDATABASE_ERROR);
-//                LOGGER.error(SFConstants.MSG_DB_CONNECTINGDATABASE_ERROR);
-//
-//                }
-//                }
-
         sF.stop();
-        // Отключение от сервера БД
-        daoMySql.Disconnect(connection);
     }
-
-    private static void ExitingProgramIfErrorOccurs(DialogWindows dialogWindows, String messageError, int status) {
-        dialogWindows.DialogMessageError(messageError);
-        LOGGER.error(messageError);
-        System.exit(status);
-
-    }
+//    static  void ExitingProgramIfErrorOccurs(DialogWindows dialogWindows, String messageError, int status) {
+//        dialogWindows.DialogMessageError(messageError);
+//        LOGGER.error(messageError);
+//        System.exit(status);
+//
+//    }
 
 
 }
