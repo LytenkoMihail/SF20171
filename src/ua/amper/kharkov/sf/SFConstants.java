@@ -41,6 +41,7 @@ public final class SFConstants {
 
     public static final String SF_SQL_FILE_NOT_OPEN = "Ошибка открытия файла с SQL запросом!";
     public static final String SF_SQL_EXEC_SQL = "Ошибка выполнения SQL запроса!";
+    public static final String SF_SQL_EXEC_NOT_RECORD_TABLE = "В таблице нет записей!";
 
 
     public static final String ECHO_CHAR_USER_PASSWORD= "*";

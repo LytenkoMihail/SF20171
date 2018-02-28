@@ -61,7 +61,7 @@ public class Main {
                 System.out.println(users.toString());
                 System.out.println("resultQueryExecution=" + resultQueryExecution);
             } else {
-                ExitingProgramIfErrorOccurs(dialogWindows, SF_SQL_EXEC_SQL , 0);
+                ExitingProgramIfErrorOccurs(dialogWindows, SF_SQL_EXEC_NOT_RECORD_TABLE , 0);
             }
 
         } else {

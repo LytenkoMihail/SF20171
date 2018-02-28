@@ -26,3 +26,15 @@
 2018-02-28 11:59:52,627 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
 2018-02-28 11:59:52,628 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 2018-02-28 11:59:52,628 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 12:53:00,200 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 12:53:01,184 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-02-28 12:53:01,184 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-02-28 12:53:01,215 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-02-28 12:53:22,207 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 12:53:26,348 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - Ошибка выполнения SQL запроса!
+2018-02-28 12:55:07,176 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 12:55:21,599 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - База данных не обнаружена.0000000000000
+2018-02-28 12:56:42,790 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 12:56:46,790 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - Ошибка выполнения SQL запроса!
+2018-02-28 12:58:49,713 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-02-28 13:03:45,516 [ERROR][main            ][      ua.amper.kharkov.sf.Main] - В таблице нет записей!
