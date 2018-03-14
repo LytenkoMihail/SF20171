@@ -89,7 +89,7 @@ public class SF {
     }
 
 
-    public boolean inisilizasia(ArrayList<User> users)throws IOException ,SQLException {
+    public boolean initializationOfTheProgram(ArrayList<User> users)throws IOException ,SQLException {
         boolean result = false;
         LoadSqlExecuteUpdateFromFile loadSqlExecuteUpdateFromFile = new LoadSqlExecuteUpdateFromFile(SF_RESOURCES_FILE_SQL_SELECT_FROM_USERS);
         if (loadSqlExecuteUpdateFromFile.isLoadSqlExecuteUpdateFromFile() == true) {

@@ -6,8 +6,8 @@ package ua.amper.kharkov.sf;
 public final class SFConstants {
     public static final String SF_VERSION = "Счет-фактура версия 2017.1.0";
 
-    public static final String LOGGER_START                 = "Start:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>";
-    public static final String LOGGER_END                   = "Stop :<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+    public static final String LOGGER_START                 = "START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>";
+    public static final String LOGGER_END                   = "STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
 
     public static final String LOGGER_GETUSERPASSWORDWINDOW = "";
     public static final String LOGGER_MAINWINDOW            = "";
