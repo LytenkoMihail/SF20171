@@ -39,14 +39,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SFConstants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -126,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoAbstract.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java" />
-        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
         <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java" />
+        <option value="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" />
       </list>
     </option>
   </component>
@@ -172,6 +181,9 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1612" />
@@ -197,9 +209,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -798,6 +810,8 @@
       <workItem from="1522915303902" duration="226000" />
       <workItem from="1522915620292" duration="107000" />
       <workItem from="1523956121226" duration="136000" />
+      <workItem from="1523956446848" duration="227000" />
+      <workItem from="1524231501416" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1502272387819</created>
@@ -1079,11 +1093,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522067553876</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Развитие программы Счет фактура.">
+      <created>1523956508694</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1523956508694</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205962000" />
+    <option name="totallyTimeSpent" value="206465000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1096,7 +1117,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48714653" weight="0.325" />
@@ -1106,7 +1126,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5191898" side_tool="true" weight="0.325" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48081023" visible="true" weight="0.32412326" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48081023" weight="0.32412326" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972974" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1220,13 +1240,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/Properties.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sf.properties" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/javax/swing/ImageIcon.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/util/LoadPropertyFromFile2.java" />
@@ -1477,13 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/UserAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1502,10 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1538,10 +1540,24 @@
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>

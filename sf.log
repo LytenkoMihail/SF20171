@@ -17,3 +17,29 @@
 2018-04-17 12:10:22,017 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
 2018-04-17 12:10:22,048 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
 2018-04-17 12:10:25,564 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-20 16:38:55,819 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-20 16:38:55,841 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-20 16:38:55,866 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-20 16:38:57,322 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-04-20 16:38:57,357 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-20 16:39:00,999 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-20 16:42:12,960 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-20 16:42:12,961 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-20 16:42:12,973 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-20 16:42:20,527 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-20 16:42:20,540 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-20 16:53:06,122 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-20 16:53:06,127 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-20 16:53:06,128 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-20 16:53:08,708 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-20 16:53:08,711 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-20 16:53:23,280 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-20 16:53:23,281 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-20 16:53:23,282 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-20 16:53:25,474 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-20 16:53:25,476 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-20 16:53:47,876 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-20 16:53:47,877 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-20 16:53:47,878 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-20 16:53:51,067 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-20 16:53:51,069 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
