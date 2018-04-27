@@ -43,3 +43,49 @@
 2018-04-20 16:53:47,878 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
 2018-04-20 16:53:51,067 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
 2018-04-20 16:53:51,069 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-23 15:14:28,799 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-23 15:14:28,824 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-23 15:14:28,863 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-23 15:14:33,021 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-23 15:14:33,054 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-23 15:14:40,619 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-23 15:14:40,620 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-23 15:14:40,621 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-23 15:14:44,676 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-23 15:14:44,677 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-23 15:59:39,181 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-23 15:59:39,211 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-23 15:59:39,236 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-23 15:59:40,422 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-04-23 15:59:40,451 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-23 15:59:45,127 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-23 16:06:52,595 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-23 16:06:52,596 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-23 16:06:52,597 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-23 16:06:58,254 [ERROR][main            ][                 kharkov.sf.SF] - СУБД MY SQL не обнаружена.
+2018-04-23 16:06:58,256 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-24 12:07:12,120 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-24 12:07:12,135 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-24 12:07:12,163 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-24 12:07:14,392 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-04-24 12:07:14,420 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-24 12:07:23,692 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Лютенко М.Г.
+2018-04-24 12:07:23,755 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-27 12:43:54,204 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-27 12:43:54,237 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-27 12:43:54,250 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-27 12:43:56,022 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-04-27 12:43:56,057 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-27 12:44:00,473 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Лютенко М.Г.
+2018-04-27 12:44:00,570 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-27 12:44:00,570 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2018-04-27 12:44:07,334 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-27 12:44:10,518 [INFO ][main            ][                 kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-27 12:44:10,519 [INFO ][main            ][                 kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-27 12:44:10,520 [INFO ][main            ][kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-27 12:44:10,875 [INFO ][Thread-1        ][kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-04-27 12:44:10,875 [INFO ][Thread-1        ][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-27 12:44:14,392 [INFO ][AWT-EventQueue-0][kharkov.sf.gui.GetUserPasswordWindow] - Пользователь:=Admin
+2018-04-27 12:44:14,418 [INFO ][AWT-EventQueue-0][kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-27 12:44:14,418 [INFO ][AWT-EventQueue-0][     kharkov.sf.gui.MainWindow] - 
+2018-04-27 12:44:16,877 [INFO ][main            ][             kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

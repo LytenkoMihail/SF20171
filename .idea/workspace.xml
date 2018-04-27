@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sf.log" beforeDir="false" afterPath="$PROJECT_DIR$/sf.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sf_full.log" beforeDir="false" afterPath="$PROJECT_DIR$/sf_full.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="646">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SFConstants.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFConstants.java">
+      <file leaf-file-name="SF.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="297">
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SFRun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -209,9 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +268,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -812,6 +822,11 @@
       <workItem from="1523956121226" duration="136000" />
       <workItem from="1523956446848" duration="227000" />
       <workItem from="1524231501416" duration="276000" />
+      <workItem from="1524232327023" duration="157000" />
+      <workItem from="1524481150560" duration="2819000" />
+      <workItem from="1524560341793" duration="509000" />
+      <workItem from="1524821438310" duration="52000" />
+      <workItem from="1524821726418" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1502272387819</created>
@@ -1100,11 +1115,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523956508694</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Развитие программы Счет фактура.">
+      <created>1524232455125</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1524232455125</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206465000" />
+    <option name="totallyTimeSpent" value="210502000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1117,9 +1139,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48714653" weight="0.325" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -1138,6 +1160,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50945944" side_tool="true" weight="0.2937018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3962264" />
       <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48714653" weight="0.325" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="4" />
@@ -1151,12 +1174,13 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48714653" weight="0.325" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972974" />
@@ -1166,12 +1190,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51285344" side_tool="true" weight="0.32567567" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48714653" weight="0.325" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49054053" visible="true" weight="0.29211086" />
       <window_info id="Favorites" order="6" sideWeight="0.50945944" side_tool="true" weight="0.2937018" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32972974" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49054053" visible="true" weight="0.29211086" />
       <window_info anchor="right" id="Database" order="7" weight="0.32969153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
@@ -1179,7 +1202,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="SonarQube" order="10" />
       <window_info id="Structure" order="1" weight="0.25321338" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3962264" />
     </layout-to-restore>
@@ -1440,13 +1463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -1511,13 +1527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/dao/DaoMySql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1537,16 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1558,6 +1557,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SFRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/SF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/amper/kharkov/sf/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

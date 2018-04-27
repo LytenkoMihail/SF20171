@@ -35,6 +35,9 @@ public class Main {
         if (initializationProgram == true) {
             sF.start(users, authorizedUser);
         }
+        if (sF.isPasswordEnteredCorrectly()) {
+            sF.run(authorizedUser);
+        }
         sF.stop();
     }
 
