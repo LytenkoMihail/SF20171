@@ -16,3 +16,9 @@
 2018-04-27 12:44:14,418 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
 2018-04-27 12:44:14,418 [INFO ][AWT-EventQueue-0][ua.amper.kharkov.sf.gui.MainWindow] - 
 2018-04-27 12:44:16,877 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2018-04-27 12:46:03,599 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - Счет-фактура версия 2017.1.0
+2018-04-27 12:46:03,600 [INFO ][main            ][        ua.amper.kharkov.sf.SF] - START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-04-27 12:46:03,601 [INFO ][main            ][ua.amper.kharkov.sf.util.LoadSqlExecuteUpdateFromFile] - Sql/select from users.sql
+2018-04-27 12:46:03,956 [INFO ][Thread-1        ][ua.amper.kharkov.sf.gui.GetUserPasswordWindow] - 
+2018-04-27 12:46:03,957 [INFO ][Thread-1        ][ua.amper.kharkov.sf.util.LoadImagesFromFile] - Images/invoice_document_file.png
+2018-04-27 12:46:05,649 [INFO ][main            ][    ua.amper.kharkov.sf.SFStop] - STOP  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

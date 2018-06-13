@@ -55,6 +55,10 @@ public final class SFConstants {
     public static final String MY_SQL_NAME_USER = "root";
     public static final String MY_SQL_PASS_WORD = "root";
 
+    public static final String MAIN_MENU_DOCUMENT = "Документы";
+    public static final String MAIN_MENU_SERVICE = "Сервис";
+    public static final String MAIN_MENU_HELP = "Справка";
+
 
 
 
